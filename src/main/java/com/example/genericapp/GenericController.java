@@ -21,19 +21,28 @@ public class GenericController {
     private TableColumn statementColumn;
     @FXML
     private TableColumn scoreColumn;
+    @FXML
+    private Label searchStatus;
 
 
     private GenericsKbArrayApp manager = new GenericsKbArrayApp("GenericsKB.txt");
+    private final ObservableList<TableData> data = FXCollections.observableArrayList(manager.getTableArray());
     @FXML
     protected void onSearchButtonClick() {
         String searchText = searchTextBox.getText();
-        System.out.println(searchText);
+        dataTable.setItems(FXCollections.observableArrayList(manager.getSearchItem(searchText)));
+        searchStatus.setText("Search Filter: '" + searchText + "'");
+    }
+
+    @FXML
+    protected void onClearButtonClick() {
+        searchTextBox.setText("");
+        dataTable.setItems(data);
+        searchStatus.setText("Search Filter: 'NULL'");
     }
 
     @FXML
     protected void initialize() {
-        final ObservableList<TableData> data = FXCollections.observableArrayList(manager.getTableArray());
-
 
         termColumn.setCellValueFactory(
                 new PropertyValueFactory<TableData, String>("term")
@@ -46,7 +55,6 @@ public class GenericController {
         );
 
         dataTable.setItems(data);
-        //dataTable.getColumns().addAll(termColumn, statementColumn, termColumn);
     }
 
 

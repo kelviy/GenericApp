@@ -4,7 +4,12 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="b0f52645-b9ed-414f-a4fc-75351c8a97cd" name="Changes" comment="Initial git commit with GUI JAVAFX. Just the skeleton of the applicatoin" />
+    <list default="true" id="b0f52645-b9ed-414f-a4fc-75351c8a97cd" name="Changes" comment="Initial git commit with GUI JAVAFX. Just the skeleton of the applicatoin">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/genericapp/GenericController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/example/genericapp/GenericController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/genericapp/GenericsKbArrayApp.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/example/genericapp/GenericsKbArrayApp.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/com/example/genericapp/GUI_view.fxml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/com/example/genericapp/GUI_view.fxml" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />

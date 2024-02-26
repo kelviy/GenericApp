@@ -60,9 +60,9 @@ public class GenericsKbArrayApp {
         return -1;
     }
 
-    public String search(String term) {
+    public GenericData search(String term) {
         int index = linearSearch(term);
-        return data[index].toString();
+        return data[index];
     }
 
     public String search(String term, String statement) {
@@ -76,5 +76,10 @@ public class GenericsKbArrayApp {
             tableData[i] = new TableData(data[i].getTerm(), data[i].getSentence(), data[i].getScore());
         }
         return tableData;
+    }
+
+    public TableData getSearchItem(String term) {
+        GenericData searchItem = search(term);
+        return new TableData(searchItem.getTerm(), searchItem.getSentence(),searchItem.getScore());
     }
 }
