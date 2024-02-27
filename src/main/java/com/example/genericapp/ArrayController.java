@@ -114,8 +114,10 @@ public class ArrayController extends Application {
             status = manager.addItem(termTextBox.getText(), statementTextBox.getText(), spinnerScore.getValue());
             data = FXCollections.observableArrayList(manager.getTotalTableArray());
             dataTable.setItems(data);
+        } else {
+            status = "INSERT FAILED: Please fill all data (term, sentence, score)";
         }
-        if (status.equals("UPDATE FAILED: Confidence Score not lower than original")) {
+        if (status.contains("FAILED")) {
             actionStatus.setTextFill(Color.RED);
         } else {
             actionStatus.setTextFill(Color.GREEN);

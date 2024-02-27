@@ -4,12 +4,8 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="b0f52645-b9ed-414f-a4fc-75351c8a97cd" name="Changes" comment="Added Comments and improved the search method calls for ArrayManager.">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/genericapp/Application/Array/ArrayManager.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/example/genericapp/Application/Array/ArrayManager.java" afterDir="false" />
+    <list default="true" id="b0f52645-b9ed-414f-a4fc-75351c8a97cd" name="Changes" comment="Functionality to add new terms to the knowledge base has been added.">
       <change beforePath="$PROJECT_DIR$/src/main/java/com/example/genericapp/ArrayController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/example/genericapp/ArrayController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/genericapp/textBasedGUI.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/example/genericapp/textBasedGUI.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/com/example/genericapp/array_view.fxml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/com/example/genericapp/array_view.fxml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -152,7 +148,15 @@
       <option name="project" value="LOCAL" />
       <updated>1709043889926</updated>
     </task>
-    <option name="localTasksCounter" value="6" />
+    <task id="LOCAL-00006" summary="Functionality to add new terms to the knowledge base has been added.">
+      <option name="closed" value="true" />
+      <created>1709067511006</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1709067511006</updated>
+    </task>
+    <option name="localTasksCounter" value="7" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -172,6 +176,7 @@
     <MESSAGE value="Added GUI and organised classes. Added Binary Data Structure Functionality" />
     <MESSAGE value="Fixed Error in module-info.java" />
     <MESSAGE value="Added Comments and improved the search method calls for ArrayManager." />
-    <option name="LAST_COMMIT_MESSAGE" value="Added Comments and improved the search method calls for ArrayManager." />
+    <MESSAGE value="Functionality to add new terms to the knowledge base has been added." />
+    <option name="LAST_COMMIT_MESSAGE" value="Functionality to add new terms to the knowledge base has been added." />
   </component>
 </project>
