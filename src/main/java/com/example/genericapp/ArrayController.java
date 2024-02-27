@@ -1,6 +1,6 @@
 package com.example.genericapp;
 
-import com.example.genericapp.Application.Array.GenericArrayManager;
+import com.example.genericapp.Application.Array.ArrayManager;
 import com.example.genericapp.Application.GenericData;
 import com.example.genericapp.Application.TableData;
 import javafx.application.Application;
@@ -31,10 +31,12 @@ public class ArrayController extends Application {
     private ChoiceBox dataChoiceBox;
     @FXML
     private RadioButton radioButtonTerm, radioButtonSentence;
+    @FXML
+    private Label actionStatus;
     private ToggleGroup searchRadioGroup = new ToggleGroup();
 
     // Manager object
-    private GenericArrayManager manager = new GenericArrayManager("GenericsKB.txt");
+    private ArrayManager manager = new ArrayManager("GenericsKB.txt");
 
     // Knowledge base Array
     private final ObservableList<TableData> data = FXCollections.observableArrayList(manager.getTotalTableArray());
@@ -63,9 +65,21 @@ public class ArrayController extends Application {
 
         // Search via Knowledge Base with Term or Statement and change items displayed on Table
         if(selectedOption.equals("Term")) {
-            dataTable.setItems(FXCollections.observableArrayList(manager.getSearchItem(searchText)));
+            TableData[] items = manager.getSearchItem(searchText);
+            if (items.length > 0) {
+                dataTable.setItems(FXCollections.observableArrayList(items));
+            } else {
+                actionStatus.setText("SEARCH ITEM IS NOT FOUND");
+                dataTable.setItems(null);
+            }
         } else {
-            dataTable.setItems(FXCollections.observableArrayList(manager.getStatementItems(searchText)));
+            TableData[] items = manager.getStatementItems(searchText);
+            if (items.length > 0) {
+                dataTable.setItems(FXCollections.observableArrayList(items));
+            } else {
+                actionStatus.setText("SEARCH ITEM IS NOT FOUND");
+                dataTable.setItems(null);
+            }
         }
 
         // Change Status at the bottom right

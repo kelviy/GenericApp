@@ -5,17 +5,12 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="b0f52645-b9ed-414f-a4fc-75351c8a97cd" name="Changes" comment="Fixed Error in module-info.java">
-      <change afterPath="$PROJECT_DIR$/src/main/resources/com/example/genericapp/binaryTree_view.fxml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/genericapp/Application/Array/GenericArrayManager.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/example/genericapp/Application/Array/GenericArrayManager.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/genericapp/Application/Array/GenericArrayManager.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/example/genericapp/Application/Array/ArrayManager.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/genericapp/Application/BinaryTree/GenericBinaryTreeManager.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/example/genericapp/Application/BinaryTree/BinaryTreeManager.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/com/example/genericapp/Application/GenericData.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/example/genericapp/Application/GenericData.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/genericapp/GUI/GenericApplication.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/example/genericapp/GenericApplication.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/genericapp/GUI/GenericController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/example/genericapp/GenericController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/genericapp/GUI/TableData.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/example/genericapp/TableData.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/genericapp/GUI/textBasedGUI.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/example/genericapp/textBasedGUI.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/module-info.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/module-info.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/com/example/genericapp/GUI_view.fxml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/com/example/genericapp/array_view.fxml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/genericapp/ArrayController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/example/genericapp/ArrayController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/genericapp/textBasedGUI.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/example/genericapp/textBasedGUI.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -25,8 +20,8 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
-        <option value="Class" />
         <option value="FxmlFile" />
+        <option value="Class" />
       </list>
     </option>
   </component>
@@ -44,6 +39,7 @@
   </component>
   <component name="PropertiesComponent"><![CDATA[{
   "keyToString": {
+    "Application.ArrayController.executor": "Run",
     "Application.GenericApplication.executor": "Run",
     "Application.GenericController.executor": "Run",
     "RunOnceActivity.OpenProjectViewOnStart": "true",
@@ -71,12 +67,12 @@
     </key>
   </component>
   <component name="RunManager">
-    <configuration name="GenericController" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.example.genericapp.GenericController" />
+    <configuration name="ArrayController" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.example.genericapp.ArrayController" />
       <module name="GenericApp" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.example.genericapp.*" />
+          <option name="PATTERN" value="com.example.genericapp.Application.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -97,7 +93,7 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.GenericController" />
+        <item itemvalue="Application.ArrayController" />
       </list>
     </recent_temporary>
   </component>

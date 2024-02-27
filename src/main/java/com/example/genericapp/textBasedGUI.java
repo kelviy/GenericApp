@@ -1,12 +1,12 @@
 package com.example.genericapp;
 
-import com.example.genericapp.Application.Array.GenericArrayManager;
+import com.example.genericapp.Application.Array.ArrayManager;
 
 import java.util.Scanner;
 
 public class textBasedGUI {
     public static void main(String[] args) {
-        GenericArrayManager app = new GenericArrayManager("GenericsKB.txt");
+        ArrayManager app = new ArrayManager("GenericsKB.txt");
         Scanner sc = new Scanner(System.in);
         boolean run = true;
 

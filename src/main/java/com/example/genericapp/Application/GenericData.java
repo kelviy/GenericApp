@@ -24,7 +24,7 @@ public class GenericData implements Comparable<GenericData> {
             return false;
         }
         GenericData data = (GenericData) other;
-        return this.term.equals(data.term);
+        return this.term.equalsIgnoreCase(data.term);
     }
 
     public boolean equals(String term) {
@@ -32,7 +32,7 @@ public class GenericData implements Comparable<GenericData> {
     }
 
     public int compareTo(GenericData other) {
-        return this.term.compareTo(other.term);
+        return this.term.compareToIgnoreCase(other.term);
     }
 
     public String toString() {
