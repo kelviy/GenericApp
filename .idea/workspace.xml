@@ -4,13 +4,12 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="b0f52645-b9ed-414f-a4fc-75351c8a97cd" name="Changes" comment="Fixed Error in module-info.java">
+    <list default="true" id="b0f52645-b9ed-414f-a4fc-75351c8a97cd" name="Changes" comment="Added Comments and improved the search method calls for ArrayManager.">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/genericapp/Application/Array/GenericArrayManager.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/example/genericapp/Application/Array/ArrayManager.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/genericapp/Application/BinaryTree/GenericBinaryTreeManager.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/example/genericapp/Application/BinaryTree/BinaryTreeManager.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/genericapp/Application/GenericData.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/example/genericapp/Application/GenericData.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/genericapp/Application/Array/ArrayManager.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/example/genericapp/Application/Array/ArrayManager.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/com/example/genericapp/ArrayController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/example/genericapp/ArrayController.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/com/example/genericapp/textBasedGUI.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/example/genericapp/textBasedGUI.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/com/example/genericapp/array_view.fxml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/com/example/genericapp/array_view.fxml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -37,21 +36,21 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "Application.ArrayController.executor": "Run",
-    "Application.GenericApplication.executor": "Run",
-    "Application.GenericController.executor": "Run",
-    "RunOnceActivity.OpenProjectViewOnStart": "true",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "kotlin-language-version-configured": "true",
-    "last_opened_file_path": "/Users/mistycloud/Library/CloudStorage/OneDrive-UniversityofCapeTown/UCT - Courses/CSC2001F/CSC2001F - Assignments/Assignment 1/GenericApp/src/main/resources/com/example/genericapp",
-    "project.structure.last.edited": "Modules",
-    "project.structure.proportion": "0.15",
-    "project.structure.side.proportion": "0.2",
-    "settings.editor.selected.configurable": "preferences.lookFeel"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;Application.ArrayController.executor&quot;: &quot;Run&quot;,
+    &quot;Application.GenericApplication.executor&quot;: &quot;Run&quot;,
+    &quot;Application.GenericController.executor&quot;: &quot;Run&quot;,
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;kotlin-language-version-configured&quot;: &quot;true&quot;,
+    &quot;last_opened_file_path&quot;: &quot;/Users/mistycloud/Library/CloudStorage/OneDrive-UniversityofCapeTown/UCT - Courses/CSC2001F/CSC2001F - Assignments/Assignment 1/GenericApp/src/main/resources/com/example/genericapp&quot;,
+    &quot;project.structure.last.edited&quot;: &quot;Modules&quot;,
+    &quot;project.structure.proportion&quot;: &quot;0.15&quot;,
+    &quot;project.structure.side.proportion&quot;: &quot;0.2&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;preferences.lookFeel&quot;
   }
-}]]></component>
+}</component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
       <recent name="$PROJECT_DIR$/src/main/resources/com/example/genericapp" />
@@ -145,14 +144,34 @@
       <option name="project" value="LOCAL" />
       <updated>1709026634891</updated>
     </task>
-    <option name="localTasksCounter" value="5" />
+    <task id="LOCAL-00005" summary="Added Comments and improved the search method calls for ArrayManager.">
+      <option name="closed" value="true" />
+      <created>1709043889926</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1709043889926</updated>
+    </task>
+    <option name="localTasksCounter" value="6" />
     <servers />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="Initial git commit with GUI JAVAFX. Just the skeleton of the applicatoin" />
     <MESSAGE value="Search and Clear Functionality is added" />
     <MESSAGE value="Added GUI and organised classes. Added Binary Data Structure Functionality" />
     <MESSAGE value="Fixed Error in module-info.java" />
-    <option name="LAST_COMMIT_MESSAGE" value="Fixed Error in module-info.java" />
+    <MESSAGE value="Added Comments and improved the search method calls for ArrayManager." />
+    <option name="LAST_COMMIT_MESSAGE" value="Added Comments and improved the search method calls for ArrayManager." />
   </component>
 </project>

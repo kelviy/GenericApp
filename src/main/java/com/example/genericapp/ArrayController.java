@@ -11,6 +11,7 @@ import javafx.fxml.FXMLLoader;
 import javafx.scene.Scene;
 import javafx.scene.control.*;
 import javafx.scene.control.cell.PropertyValueFactory;
+import javafx.scene.paint.Color;
 import javafx.stage.Stage;
 
 import java.io.IOException;
@@ -20,7 +21,9 @@ public class ArrayController extends Application {
 
     // GUI Variables
     @FXML
-    private TextField searchTextBox;
+    private TextField searchTextBox, termTextBox;
+    @FXML
+    private TextArea statementTextBox;
     @FXML
     private TableView dataTable;
     @FXML
@@ -34,12 +37,13 @@ public class ArrayController extends Application {
     @FXML
     private Label actionStatus;
     private ToggleGroup searchRadioGroup = new ToggleGroup();
-
+    @FXML
+    private Spinner<Double> spinnerScore;
     // Manager object
     private ArrayManager manager = new ArrayManager("GenericsKB.txt");
 
     // Knowledge base Array
-    private final ObservableList<TableData> data = FXCollections.observableArrayList(manager.getTotalTableArray());
+    private ObservableList<TableData> data = FXCollections.observableArrayList(manager.getTotalTableArray());
 
     // Search button action
 
@@ -65,18 +69,24 @@ public class ArrayController extends Application {
 
         // Search via Knowledge Base with Term or Statement and change items displayed on Table
         if(selectedOption.equals("Term")) {
-            TableData[] items = manager.getSearchItem(searchText);
+            TableData[] items = manager.searchListTermResult(searchText);
             if (items.length > 0) {
                 dataTable.setItems(FXCollections.observableArrayList(items));
+                actionStatus.setTextFill(Color.GREEN);
+                actionStatus.setText("SEARCH Successful");
             } else {
+                actionStatus.setTextFill(Color.RED);
                 actionStatus.setText("SEARCH ITEM IS NOT FOUND");
                 dataTable.setItems(null);
             }
         } else {
-            TableData[] items = manager.getStatementItems(searchText);
+            TableData[] items = manager.searchListSentenceResult(searchText);
             if (items.length > 0) {
+                actionStatus.setTextFill(Color.GREEN);
+                actionStatus.setText("SEARCH Successful");
                 dataTable.setItems(FXCollections.observableArrayList(items));
             } else {
+                actionStatus.setTextFill(Color.RED);
                 actionStatus.setText("SEARCH ITEM IS NOT FOUND");
                 dataTable.setItems(null);
             }
@@ -94,6 +104,23 @@ public class ArrayController extends Application {
 
         // Changes the status at the bottom right
         searchStatus.setText("Search Filter: 'NULL'");
+        actionStatus.setText("");
+    }
+
+    @FXML
+    protected void onAddButton() {
+        String status = "";
+        if (termTextBox.getText() != "" && statementTextBox.getText() != "") {
+            status = manager.addItem(termTextBox.getText(), statementTextBox.getText(), spinnerScore.getValue());
+            data = FXCollections.observableArrayList(manager.getTotalTableArray());
+            dataTable.setItems(data);
+        }
+        if (status.equals("UPDATE FAILED: Confidence Score not lower than original")) {
+            actionStatus.setTextFill(Color.RED);
+        } else {
+            actionStatus.setTextFill(Color.GREEN);
+        }
+        actionStatus.setText(status);
     }
 
     @FXML
@@ -118,6 +145,7 @@ public class ArrayController extends Application {
         // Initialize Toggle Groups
         radioButtonSentence.setToggleGroup(searchRadioGroup);
         radioButtonTerm.setToggleGroup(searchRadioGroup);
+
         
     }
 

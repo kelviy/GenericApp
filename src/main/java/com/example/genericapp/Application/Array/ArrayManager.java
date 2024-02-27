@@ -46,8 +46,15 @@ public class ArrayManager {
         return textData;
     }
 
-
-    private GenericData[] searchTerm(String term) {
+    private int searchTerm(String term) {
+        for(int i = 0; i < count; i++) {
+            if (data[i].getTerm().equalsIgnoreCase(term)) {
+                return i;
+            }
+        }
+        return -1;
+    }
+    private GenericData[] searchMultiTerm(String term) {
         GenericData[] matched = new GenericData[100_000];
         int foundCount = 0;
 
@@ -60,7 +67,7 @@ public class ArrayManager {
         return matched;
     }
 
-    private GenericData[] searchStatement(String sentence) {
+    private GenericData[] searchMultiSentence(String sentence) {
         GenericData[] matched = new GenericData[100_000];
         int foundCount = 0;
 
@@ -80,16 +87,16 @@ public class ArrayManager {
     }
 
     // returns an all items that match the given term
-    public TableData[] getSearchItem(String term) {
-        GenericData[] searchItems = searchTerm(term);
+    public TableData[] searchListTermResult(String term) {
+        GenericData[] searchItems = searchMultiTerm(term);
         TableData[] returnData = convertGenericToTable(searchItems);
 
         return returnData;
     }
 
     // returns all items that match the given statement
-    public TableData[] getStatementItems(String statement) {
-        GenericData[] matched = searchStatement(statement);
+    public TableData[] searchListSentenceResult(String sentence) {
+        GenericData[] matched = searchMultiSentence(sentence);
         TableData[] returnData = convertGenericToTable(matched);
 
         return returnData;
@@ -113,5 +120,21 @@ public class ArrayManager {
         }
 
         return tData;
+    }
+
+    public String addItem(String term, String sentence, double score) {
+        int index = searchTerm(term);
+
+        if (index >= 0 && data[index].getScore() < score) {
+            data[index].setSentence(sentence);
+            data[index].setScore(score);
+            return "UPDATE SUCCESSFUL";
+        } if (index < 0) {
+            data[count] = new GenericData(term, sentence, score);
+            count++;
+            return "INSERT SUCCESSFUL";
+        }
+
+        return "UPDATE FAILED: Confidence Score not lower than original";
     }
 }

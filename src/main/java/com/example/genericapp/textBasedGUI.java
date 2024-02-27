@@ -33,7 +33,7 @@ public class textBasedGUI {
                 case 3:
                     System.out.println("Enter Term: ");
                     String term = sc.nextLine();
-                    System.out.println(app.getSearchItem(term));
+                    System.out.println(app.searchListTermResult(term));
                     break;
                 case 4:
                     //TODO: add advanced search
