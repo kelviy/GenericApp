@@ -12,7 +12,6 @@ module com.example.genericapp {
     requires com.almasb.fxgl.all;
 
     opens com.example.genericapp to javafx.fxml;
-    exports com.example.genericapp;
     exports com.example.genericapp.GUI;
     opens com.example.genericapp.GUI to javafx.fxml;
     exports com.example.genericapp.Application;
