@@ -1,7 +1,5 @@
 package com.example.genericapp.Application;
 
-import com.example.genericapp.GUI.TableData;
-
 // Class that stores data for each object
 public class GenericData implements Comparable<GenericData> {
     private String term;

@@ -1,4 +1,4 @@
-package com.example.genericapp.GUI;
+package com.example.genericapp.Application;
 
 import javafx.beans.property.SimpleDoubleProperty;
 import javafx.beans.property.SimpleStringProperty;

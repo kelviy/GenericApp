@@ -1,7 +1,7 @@
 package com.example.genericapp.Application.Array;
 
 import com.example.genericapp.Application.GenericData;
-import com.example.genericapp.GUI.TableData;
+import com.example.genericapp.Application.TableData;
 
 import java.io.BufferedReader;
 import java.io.FileNotFoundException;

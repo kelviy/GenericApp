@@ -1,4 +1,4 @@
-package com.example.genericapp.GUI;
+package com.example.genericapp;
 
 import javafx.application.Application;
 import javafx.fxml.FXMLLoader;
@@ -7,14 +7,14 @@ import javafx.stage.Stage;
 
 import java.io.IOException;
 
-public class GenericApplication extends Application {
+public class BinaryTreeController extends Application {
 
     @Override
     public void start(Stage stage) throws IOException {
         // Running the GUI
-        FXMLLoader fxmlLoader = new FXMLLoader(GenericApplication.class.getResource("GUI_view.fxml"));
+        FXMLLoader fxmlLoader = new FXMLLoader(BinaryTreeController.class.getResource("binaryTree_view.fxml"));
         Scene scene = new Scene(fxmlLoader.load());
-        stage.setTitle("Generic Application");
+        stage.setTitle("Binary Tree Application");
         stage.setScene(scene);
         stage.show();
     }

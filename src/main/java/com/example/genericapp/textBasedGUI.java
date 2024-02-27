@@ -1,4 +1,4 @@
-package com.example.genericapp.GUI;
+package com.example.genericapp;
 
 import com.example.genericapp.Application.Array.GenericArrayManager;
 

@@ -39,7 +39,7 @@
 <?import javafx.scene.shape.*?>
 <?import javafx.scene.text.*?>
 
-<VBox prefHeight="600.0" prefWidth="900.0" xmlns="http://javafx.com/javafx/17.0.2-ea" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.example.genericapp.GUI.GenericController">
+<VBox prefHeight="600.0" prefWidth="900.0" xmlns="http://javafx.com/javafx/17.0.2-ea" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.example.genericapp.ArrayController">
   <children>
     <SplitPane dividerPositions="0.2505567928730512" focusTraversable="true" prefHeight="-1.0" prefWidth="-1.0" VBox.vgrow="ALWAYS">
       <items>
@@ -58,7 +58,7 @@
                   <Label layoutX="32.0" layoutY="444.0" text="Application Type" textFill="#807e7e" />
                   <ChoiceBox layoutX="31.0" layoutY="463.0" prefHeight="26.0" prefWidth="171.0" />
                   <Label layoutX="26.0" layoutY="144.0" text="Add / Update" underline="true" />
-                  <TextField layoutX="24.0" layoutY="185.0" prefHeight="26.0" prefWidth="171.0" />
+                  <TextField layoutX="23.0" layoutY="185.0" prefHeight="26.0" prefWidth="171.0" />
                   <Label layoutX="27.0" layoutY="166.0" text="Term" textFill="#807e7e" />
                   <Spinner layoutX="26.0" layoutY="233.0" prefHeight="26.0" prefWidth="171.0" />
                   <Label layoutX="27.0" layoutY="218.0" text="Confidence Score" textFill="#807e7e" />

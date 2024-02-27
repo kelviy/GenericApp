@@ -1,15 +1,22 @@
-package com.example.genericapp.GUI;
+package com.example.genericapp;
 
 import com.example.genericapp.Application.Array.GenericArrayManager;
 import com.example.genericapp.Application.GenericData;
+import com.example.genericapp.Application.TableData;
+import javafx.application.Application;
 import javafx.collections.FXCollections;
 import javafx.collections.ObservableList;
 import javafx.fxml.FXML;
+import javafx.fxml.FXMLLoader;
+import javafx.scene.Scene;
 import javafx.scene.control.*;
 import javafx.scene.control.cell.PropertyValueFactory;
+import javafx.stage.Stage;
+
+import java.io.IOException;
 
 // table code is adapted from: https://docs.oracle.com/javafx/2/ui_controls/table-view.htm#CJAGHGBD
-public class GenericController {
+public class ArrayController extends Application {
 
     // GUI Variables
     @FXML
@@ -33,6 +40,21 @@ public class GenericController {
     private final ObservableList<TableData> data = FXCollections.observableArrayList(manager.getTotalTableArray());
 
     // Search button action
+
+    @Override
+    public void start(Stage stage) throws IOException {
+        // Running the GUI
+        FXMLLoader fxmlLoader = new FXMLLoader(ArrayController.class.getResource("array_view.fxml"));
+        Scene scene = new Scene(fxmlLoader.load());
+        stage.setTitle("Array Application");
+        stage.setScene(scene);
+        stage.show();
+    }
+
+    public static void main(String[] args) {
+        launch();
+    }
+
     @FXML
     protected void onSearchButtonClick() {
         // Retrieve User Input
