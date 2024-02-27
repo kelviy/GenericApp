@@ -1,6 +1,9 @@
-package com.example.genericapp;
+package com.example.genericapp.Application;
 
-public class GenericData implements Comparable {
+import com.example.genericapp.GUI.TableData;
+
+// Class that stores data for each object
+public class GenericData implements Comparable<GenericData> {
     private String term;
     private String sentence;
     private double score;
@@ -9,6 +12,10 @@ public class GenericData implements Comparable {
         this.term = term;
         this.sentence = sentence;
         this.score = score;
+    }
+
+    public static TableData convertTableData(GenericData convertData) {
+        return new TableData(convertData.getTerm(), convertData.getSentence(), convertData.getScore());
     }
 
     public boolean equals(Object other) {
@@ -26,12 +33,8 @@ public class GenericData implements Comparable {
         return this.term.equals(term);
     }
 
-    public int compareTo(Object other) {
-        if (other instanceof GenericData) {
-            GenericData data = (GenericData) other;
-            return this.term.compareTo(data.term);
-        }
-        throw new NullPointerException();
+    public int compareTo(GenericData other) {
+        return this.term.compareTo(other.term);
     }
 
     public String toString() {
@@ -61,4 +64,5 @@ public class GenericData implements Comparable {
     public void setScore(double score) {
         this.score = score;
     }
+
 }

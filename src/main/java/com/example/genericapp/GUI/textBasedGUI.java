@@ -1,10 +1,12 @@
-package com.example.genericapp;
+package com.example.genericapp.GUI;
+
+import com.example.genericapp.Application.Array.GenericArrayManager;
 
 import java.util.Scanner;
 
-public class Main{
+public class textBasedGUI {
     public static void main(String[] args) {
-        GenericsKbArrayApp app = new GenericsKbArrayApp("GenericsKB.txt");
+        GenericArrayManager app = new GenericArrayManager("GenericsKB.txt");
         Scanner sc = new Scanner(System.in);
         boolean run = true;
 
@@ -31,7 +33,7 @@ public class Main{
                 case 3:
                     System.out.println("Enter Term: ");
                     String term = sc.nextLine();
-                    System.out.println(app.search(term));
+                    System.out.println(app.getSearchItem(term));
                     break;
                 case 4:
                     //TODO: add advanced search

@@ -1,8 +1,9 @@
-package com.example.genericapp;
+package com.example.genericapp.GUI;
 
 import javafx.beans.property.SimpleDoubleProperty;
 import javafx.beans.property.SimpleStringProperty;
 
+// Wrapper Class to display data in GUI
 public class TableData {
         private final SimpleStringProperty term;
         private final SimpleStringProperty statement;

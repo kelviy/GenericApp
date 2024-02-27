@@ -4,11 +4,19 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="b0f52645-b9ed-414f-a4fc-75351c8a97cd" name="Changes" comment="Initial git commit with GUI JAVAFX. Just the skeleton of the applicatoin">
+    <list default="true" id="b0f52645-b9ed-414f-a4fc-75351c8a97cd" name="Changes" comment="Search and Clear Functionality is added">
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/example/genericapp/GenericBinaryTreeManager.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/com/example/genericapp/GenericController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/example/genericapp/GenericController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/genericapp/GenericsKbArrayApp.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/example/genericapp/GenericsKbArrayApp.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/genericapp/GenericData.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/example/genericapp/GenericData.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/genericapp/GenericsKbArrayApp.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/example/genericapp/GenericArrayManager.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/genericapp/HelloApplication.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/example/genericapp/GenericApplication.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/genericapp/HelloController.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/genericapp/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/example/genericapp/Main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/genericapp/TableData.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/example/genericapp/TableData.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/resources/com/example/genericapp/GUI_view.fxml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/com/example/genericapp/GUI_view.fxml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/com/example/genericapp/hello-view.fxml" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -34,22 +42,44 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "RunOnceActivity.OpenProjectViewOnStart": "true",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "last_opened_file_path": "/Users/mistycloud/Library/CloudStorage/OneDrive-UniversityofCapeTown/UCT - Courses/CSC2001F/CSC2001F - Assignments/Assignment 1/GenericApp/src/main/resources/com/example/genericapp",
-    "project.structure.last.edited": "Modules",
-    "project.structure.proportion": "0.15",
-    "project.structure.side.proportion": "0.2",
-    "settings.editor.selected.configurable": "preferences.lookFeel"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;Application.GenericApplication.executor&quot;: &quot;Run&quot;,
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;kotlin-language-version-configured&quot;: &quot;true&quot;,
+    &quot;last_opened_file_path&quot;: &quot;/Users/mistycloud/Library/CloudStorage/OneDrive-UniversityofCapeTown/UCT - Courses/CSC2001F/CSC2001F - Assignments/Assignment 1/GenericApp/src/main/resources/com/example/genericapp&quot;,
+    &quot;project.structure.last.edited&quot;: &quot;Modules&quot;,
+    &quot;project.structure.proportion&quot;: &quot;0.15&quot;,
+    &quot;project.structure.side.proportion&quot;: &quot;0.2&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;preferences.lookFeel&quot;
   }
-}]]></component>
+}</component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
       <recent name="$PROJECT_DIR$/src/main/resources/com/example/genericapp" />
       <recent name="$PROJECT_DIR$/src/main/java/com/example/genericapp" />
     </key>
+  </component>
+  <component name="RunManager">
+    <configuration default="true" type="JetRunConfigurationType">
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration default="true" type="KotlinStandaloneScriptRunConfigurationType">
+      <option name="filePath" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+  </component>
+  <component name="SharedIndexes">
+    <attachedChunks>
+      <set>
+        <option value="jdk-17.0.10-corretto-17.0.10-3183f394aec4-96c0d24d" />
+      </set>
+    </attachedChunks>
   </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
@@ -68,11 +98,20 @@
       <option name="project" value="LOCAL" />
       <updated>1708961169327</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="Search and Clear Functionality is added">
+      <option name="closed" value="true" />
+      <created>1708964249494</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1708964249494</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="Initial git commit with GUI JAVAFX. Just the skeleton of the applicatoin" />
-    <option name="LAST_COMMIT_MESSAGE" value="Initial git commit with GUI JAVAFX. Just the skeleton of the applicatoin" />
+    <MESSAGE value="Search and Clear Functionality is added" />
+    <option name="LAST_COMMIT_MESSAGE" value="Search and Clear Functionality is added" />
   </component>
 </project>
