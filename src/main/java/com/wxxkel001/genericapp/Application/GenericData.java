@@ -1,4 +1,4 @@
-package com.example.genericapp.Application;
+package com.wxxkel001.genericapp.Application;
 
 // Class that stores data for each object
 public class GenericData implements Comparable<GenericData> {

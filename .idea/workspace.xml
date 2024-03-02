@@ -5,9 +5,22 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="b0f52645-b9ed-414f-a4fc-75351c8a97cd" name="Changes" comment="Validation condition for all text boxes to be filled was added.">
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/wxxkel001/genericapp/Application/BinaryTree/BinaryTreeManager.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/genericapp/Application/BinaryTree/BinaryNode.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/example/genericapp/Application/BinaryTree/BinaryNode.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/genericapp/Application/BinaryTree/BinarySearchTree.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/example/genericapp/Application/BinaryTree/BinarySearchTree.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/genericapp/Application/Array/ArrayManager.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/wxxkel001/genericapp/Application/Array/ArrayManager.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/genericapp/Application/BinaryTree/BinaryNode.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/wxxkel001/genericapp/Application/BinaryTree/BinaryNode.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/genericapp/Application/BinaryTree/BinarySearchTree.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/wxxkel001/genericapp/Application/BinaryTree/BinarySearchTree.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/genericapp/Application/BinaryTree/BinaryTreeManager.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/genericapp/Application/GenericData.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/wxxkel001/genericapp/Application/GenericData.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/genericapp/Application/TableData.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/wxxkel001/genericapp/Application/TableData.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/genericapp/ArrayController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/wxxkel001/genericapp/ArrayController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/genericapp/BinaryTreeController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/wxxkel001/genericapp/BinaryTreeController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/genericapp/textBasedGUI.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/wxxkel001/genericapp/textBasedGUI.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/module-info.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/module-info.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/com/example/genericapp/array_view.fxml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/com/wxxkel001/genericapp/array_view.fxml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/com/example/genericapp/binaryTree_view.fxml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/com/wxxkel001/genericapp/binaryTree_view.fxml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/com/example/genericapp/javafx.swing.jar" beforeDir="false" afterPath="$PROJECT_DIR$/javafx.swing.jar" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -39,6 +52,7 @@
     "Application.ArrayController.executor": "Run",
     "Application.GenericApplication.executor": "Run",
     "Application.GenericController.executor": "Run",
+    "Application.com.wxxkel001.genericapp.ArrayController.executor": "Run",
     "Application.textBasedGUI.executor": "Run",
     "RunOnceActivity.OpenProjectViewOnStart": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
@@ -56,6 +70,7 @@
       <recent name="$PROJECT_DIR$/src/main/java/com/example/genericapp" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$" />
       <recent name="$PROJECT_DIR$/src/main/java" />
       <recent name="$PROJECT_DIR$/src/main/java/com/example/genericapp" />
       <recent name="$PROJECT_DIR$/src/main/java/com/example/genericapp/Application" />
@@ -64,13 +79,26 @@
       <recent name="com.example.genericapp" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.ArrayController">
+  <component name="RunManager" selected="Application.com.wxxkel001.genericapp.ArrayController">
     <configuration name="ArrayController" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="com.example.genericapp.ArrayController" />
       <module name="GenericApp" />
       <extension name="coverage">
         <pattern>
           <option name="PATTERN" value="com.example.genericapp.Application.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="com.wxxkel001.genericapp.ArrayController" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.wxxkel001.genericapp.ArrayController" />
+      <module name="GenericApp" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.wxxkel001.genericapp.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -104,6 +132,7 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.com.wxxkel001.genericapp.ArrayController" />
         <item itemvalue="Application.ArrayController" />
         <item itemvalue="Application.textBasedGUI" />
       </list>

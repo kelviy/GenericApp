@@ -11,12 +11,12 @@ module com.example.genericapp {
     requires eu.hansolo.tilesfx;
     requires com.almasb.fxgl.all;
 
-    exports com.example.genericapp.Application;
-    opens com.example.genericapp.Application to javafx.fxml;
-    exports com.example.genericapp.Application.BinaryTree;
-    opens com.example.genericapp.Application.BinaryTree to javafx.fxml;
-    exports com.example.genericapp.Application.Array;
-    opens com.example.genericapp.Application.Array to javafx.fxml;
-    exports com.example.genericapp;
-    opens com.example.genericapp to javafx.fxml;
+    exports com.wxxkel001.genericapp.Application;
+    opens com.wxxkel001.genericapp.Application to javafx.fxml;
+    exports com.wxxkel001.genericapp.Application.BinaryTree;
+    opens com.wxxkel001.genericapp.Application.BinaryTree to javafx.fxml;
+    exports com.wxxkel001.genericapp.Application.Array;
+    opens com.wxxkel001.genericapp.Application.Array to javafx.fxml;
+    exports com.wxxkel001.genericapp;
+    opens com.wxxkel001.genericapp to javafx.fxml;
 }

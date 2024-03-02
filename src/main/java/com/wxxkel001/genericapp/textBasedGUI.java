@@ -1,6 +1,6 @@
-package com.example.genericapp;
+package com.wxxkel001.genericapp;
 
-import com.example.genericapp.Application.Array.ArrayManager;
+import com.wxxkel001.genericapp.Application.Array.ArrayManager;
 
 import java.util.Scanner;
 

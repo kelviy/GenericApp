@@ -1,4 +1,4 @@
-package com.example.genericapp;
+package com.wxxkel001.genericapp;
 
 import javafx.application.Application;
 import javafx.fxml.FXMLLoader;

@@ -1,4 +1,4 @@
-package com.example.genericapp.Application.BinaryTree;
+package com.wxxkel001.genericapp.Application.BinaryTree;
 
 public class BinarySearchTree<dataType> {
     private BinaryNode<dataType> root;
