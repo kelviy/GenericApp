@@ -14,6 +14,7 @@ import javafx.scene.control.cell.PropertyValueFactory;
 import javafx.scene.paint.Color;
 import javafx.stage.Stage;
 
+import java.io.File;
 import java.io.IOException;
 
 // table code is adapted from: https://docs.oracle.com/javafx/2/ui_controls/table-view.htm#CJAGHGBD
@@ -128,10 +129,17 @@ public class ArrayController extends Application {
     @FXML
     protected void onLoadButtonClick() {
         String fileName = loadTextBox.getText();
-        manager.loadData(fileName);
-        FXCollections.observableArrayList(manager.getTotalTableArray());
-        data = FXCollections.observableArrayList(manager.getTotalTableArray());
-        dataTable.setItems(data);
+        if (new File(fileName).exists()) {
+            manager.loadData(fileName);
+            FXCollections.observableArrayList(manager.getTotalTableArray());
+            data = FXCollections.observableArrayList(manager.getTotalTableArray());
+            dataTable.setItems(data);
+            actionStatus.setTextFill(Color.GREEN);
+            actionStatus.setText("FILE LOADED SUCCESSFULLY");
+        } else {
+            actionStatus.setTextFill(Color.RED);
+            actionStatus.setText("FILE NOT FOUND");
+        }
     }
 
     @FXML

@@ -1,12 +1,14 @@
 package com.wxxkel001.genericapp;
 
 import com.wxxkel001.genericapp.Application.Array.ArrayManager;
+import com.wxxkel001.genericapp.Application.BinaryTree.BinaryTreeManager;
 
 import java.util.Scanner;
 
 public class textBasedGUI {
     public static void main(String[] args) {
-        ArrayManager app = new ArrayManager("GenericsKB.txt");
+        //ArrayManager app = new ArrayManager("GenericsKB.txt");
+        BinaryTreeManager app = new BinaryTreeManager("GenericsKB.txt");
         Scanner sc = new Scanner(System.in);
         boolean run = true;
 
@@ -33,7 +35,7 @@ public class textBasedGUI {
                 case 3:
                     System.out.println("Enter Term: ");
                     String term = sc.nextLine();
-                    System.out.println(app.searchListTermResult(term));
+                    System.out.println(app.searchTerm(term));
                     break;
                 case 4:
                     //TODO: add advanced search

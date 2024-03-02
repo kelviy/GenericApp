@@ -30,10 +30,10 @@ public class ArrayManager {
                 String[] parts = line.split("\t");
 
                 String term = parts[0];
-                String statement = parts[1];
+                String sentence = parts[1];
                 double score = Double.parseDouble(parts[2]);
 
-                addItem(term, statement, score);
+                addItem(term, sentence, score);
             }
 
         } catch(FileNotFoundException e) {

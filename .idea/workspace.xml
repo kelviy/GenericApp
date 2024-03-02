@@ -7,7 +7,13 @@
     <list default="true" id="b0f52645-b9ed-414f-a4fc-75351c8a97cd" name="Changes" comment="Validation condition for all text boxes to be filled was added.">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/com/wxxkel001/genericapp/Application/Array/ArrayManager.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/wxxkel001/genericapp/Application/Array/ArrayManager.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/wxxkel001/genericapp/Application/BinaryTree/BinarySearchTree.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/wxxkel001/genericapp/Application/BinaryTree/BinarySearchTree.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/wxxkel001/genericapp/Application/BinaryTree/BinaryTreeManager.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/wxxkel001/genericapp/Application/BinaryTree/BinaryTreeManager.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/com/wxxkel001/genericapp/ArrayController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/wxxkel001/genericapp/ArrayController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/wxxkel001/genericapp/BinaryTreeController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/wxxkel001/genericapp/BinaryTreeController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/wxxkel001/genericapp/textBasedGUI.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/wxxkel001/genericapp/textBasedGUI.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/com/wxxkel001/genericapp/array_view.fxml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/com/wxxkel001/genericapp/array_view.fxml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/com/wxxkel001/genericapp/binaryTree_view.fxml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/com/wxxkel001/genericapp/binaryTree_view.fxml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -34,23 +40,25 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">{
-  &quot;keyToString&quot;: {
-    &quot;Application.ArrayController.executor&quot;: &quot;Run&quot;,
-    &quot;Application.GenericApplication.executor&quot;: &quot;Run&quot;,
-    &quot;Application.GenericController.executor&quot;: &quot;Run&quot;,
-    &quot;Application.com.wxxkel001.genericapp.ArrayController.executor&quot;: &quot;Run&quot;,
-    &quot;Application.textBasedGUI.executor&quot;: &quot;Run&quot;,
-    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
-    &quot;kotlin-language-version-configured&quot;: &quot;true&quot;,
-    &quot;last_opened_file_path&quot;: &quot;/Users/mistycloud/Library/CloudStorage/OneDrive-UniversityofCapeTown/UCT - Courses/CSC2001F/CSC2001F - Assignments/Assignment 1/GenericApp/src/main/resources/com/example/genericapp&quot;,
-    &quot;project.structure.last.edited&quot;: &quot;Modules&quot;,
-    &quot;project.structure.proportion&quot;: &quot;0.15&quot;,
-    &quot;project.structure.side.proportion&quot;: &quot;0.2&quot;,
-    &quot;settings.editor.selected.configurable&quot;: &quot;preferences.lookFeel&quot;
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "Application.ArrayController.executor": "Run",
+    "Application.BinaryTreeController.executor": "Run",
+    "Application.GenericApplication.executor": "Run",
+    "Application.GenericController.executor": "Run",
+    "Application.com.wxxkel001.genericapp.ArrayController.executor": "Run",
+    "Application.com.wxxkel001.genericapp.textBasedGUI.executor": "Run",
+    "Application.textBasedGUI.executor": "Run",
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "kotlin-language-version-configured": "true",
+    "last_opened_file_path": "/Users/mistycloud/Library/CloudStorage/OneDrive-UniversityofCapeTown/UCT - Courses/CSC2001F/CSC2001F - Assignments/Assignment 1/GenericApp/src/main/resources/com/example/genericapp",
+    "project.structure.last.edited": "Modules",
+    "project.structure.proportion": "0.15",
+    "project.structure.side.proportion": "0.2",
+    "settings.editor.selected.configurable": "preferences.lookFeel"
   }
-}</component>
+}]]></component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
       <recent name="$PROJECT_DIR$/src/main/resources/com/example/genericapp" />
@@ -66,7 +74,7 @@
       <recent name="com.example.genericapp" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.com.wxxkel001.genericapp.ArrayController">
+  <component name="RunManager" selected="Application.BinaryTreeController">
     <configuration name="ArrayController" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="com.example.genericapp.ArrayController" />
       <module name="GenericApp" />
@@ -80,8 +88,34 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="BinaryTreeController" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.wxxkel001.genericapp.BinaryTreeController" />
+      <module name="GenericApp" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.wxxkel001.genericapp.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="com.wxxkel001.genericapp.ArrayController" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="com.wxxkel001.genericapp.ArrayController" />
+      <module name="GenericApp" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.wxxkel001.genericapp.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="com.wxxkel001.genericapp.textBasedGUI" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.wxxkel001.genericapp.textBasedGUI" />
       <module name="GenericApp" />
       <extension name="coverage">
         <pattern>
@@ -119,6 +153,8 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.BinaryTreeController" />
+        <item itemvalue="Application.com.wxxkel001.genericapp.textBasedGUI" />
         <item itemvalue="Application.com.wxxkel001.genericapp.ArrayController" />
         <item itemvalue="Application.ArrayController" />
         <item itemvalue="Application.textBasedGUI" />

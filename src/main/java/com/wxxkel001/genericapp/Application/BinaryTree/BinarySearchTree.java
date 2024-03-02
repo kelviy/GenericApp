@@ -43,7 +43,6 @@ public class BinarySearchTree<dataType extends GenericData> {
         }
     }
 
-
     // TODO: How to handle duplicates
     public void insert(dataType d, BinaryNode<dataType> node) {
         if (d.compareTo(node.getData()) <= 0) {
