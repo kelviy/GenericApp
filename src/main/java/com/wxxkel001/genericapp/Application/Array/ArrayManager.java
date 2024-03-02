@@ -10,17 +10,17 @@ import java.io.IOException;
 
 public class ArrayManager {
 
-    private GenericData[] data;
+    private GenericData[] data = new GenericData[100_000];
     private int count = 0;
     public ArrayManager(String textFile) {
-        data = loadData(textFile);
+        loadData(textFile);
     }
 
-    // loads data from TextFile name and returns an fixed size Array with loaded data
-    public GenericData[] loadData(String textFile) {
+    public ArrayManager() {
 
-        GenericData[] textData = new GenericData[100_000];
-
+    }
+    // loads data from TextFile name and returns a fixed size Array with loaded data
+    public void loadData(String textFile) {
         try {
             BufferedReader ff = new BufferedReader(new FileReader(textFile));
 
@@ -33,8 +33,7 @@ public class ArrayManager {
                 String statement = parts[1];
                 double score = Double.parseDouble(parts[2]);
 
-                textData[count] = new GenericData(term, statement, score);
-                count++;
+                addItem(term, statement, score);
             }
 
         } catch(FileNotFoundException e) {
@@ -42,8 +41,6 @@ public class ArrayManager {
         } catch(IOException e) {
             System.out.println(e);
         }
-
-        return textData;
     }
 
     private int searchTerm(String term) {

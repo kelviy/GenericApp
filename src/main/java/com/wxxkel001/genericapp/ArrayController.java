@@ -40,7 +40,7 @@ public class ArrayController extends Application {
     @FXML
     private Spinner<Double> spinnerScore;
     // Manager object
-    private ArrayManager manager = new ArrayManager("GenericsKB.txt");
+    private ArrayManager manager = new ArrayManager();
 
     // Knowledge base Array
     private ObservableList<TableData> data = FXCollections.observableArrayList(manager.getTotalTableArray());
@@ -129,7 +129,9 @@ public class ArrayController extends Application {
     protected void onLoadButtonClick() {
         String fileName = loadTextBox.getText();
         manager.loadData(fileName);
-        System.out.println("This load Button is working");
+        FXCollections.observableArrayList(manager.getTotalTableArray());
+        data = FXCollections.observableArrayList(manager.getTotalTableArray());
+        dataTable.setItems(data);
     }
 
     @FXML
@@ -147,9 +149,6 @@ public class ArrayController extends Application {
         );
         dataTable.setItems(data);
 
-//        // Initialize the Choice Box
-//        String[] textFileList = {"GenericsKB.txt", "GenericsKB-additional.txt"};
-//        dataChoiceBox.setItems(FXCollections.observableArrayList(textFileList));
 
         // Initialize Toggle Groups
         radioButtonSentence.setToggleGroup(searchRadioGroup);
@@ -157,6 +156,5 @@ public class ArrayController extends Application {
 
         
     }
-
 
 }
