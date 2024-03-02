@@ -4,8 +4,10 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="b0f52645-b9ed-414f-a4fc-75351c8a97cd" name="Changes" comment="Functionality to add new terms to the knowledge base has been added.">
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/genericapp/ArrayController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/example/genericapp/ArrayController.java" afterDir="false" />
+    <list default="true" id="b0f52645-b9ed-414f-a4fc-75351c8a97cd" name="Changes" comment="Validation condition for all text boxes to be filled was added.">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/genericapp/Application/BinaryTree/BinaryNode.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/example/genericapp/Application/BinaryTree/BinaryNode.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/genericapp/Application/BinaryTree/BinarySearchTree.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/example/genericapp/Application/BinaryTree/BinarySearchTree.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -32,21 +34,22 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">{
-  &quot;keyToString&quot;: {
-    &quot;Application.ArrayController.executor&quot;: &quot;Run&quot;,
-    &quot;Application.GenericApplication.executor&quot;: &quot;Run&quot;,
-    &quot;Application.GenericController.executor&quot;: &quot;Run&quot;,
-    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
-    &quot;kotlin-language-version-configured&quot;: &quot;true&quot;,
-    &quot;last_opened_file_path&quot;: &quot;/Users/mistycloud/Library/CloudStorage/OneDrive-UniversityofCapeTown/UCT - Courses/CSC2001F/CSC2001F - Assignments/Assignment 1/GenericApp/src/main/resources/com/example/genericapp&quot;,
-    &quot;project.structure.last.edited&quot;: &quot;Modules&quot;,
-    &quot;project.structure.proportion&quot;: &quot;0.15&quot;,
-    &quot;project.structure.side.proportion&quot;: &quot;0.2&quot;,
-    &quot;settings.editor.selected.configurable&quot;: &quot;preferences.lookFeel&quot;
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "Application.ArrayController.executor": "Run",
+    "Application.GenericApplication.executor": "Run",
+    "Application.GenericController.executor": "Run",
+    "Application.textBasedGUI.executor": "Run",
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "kotlin-language-version-configured": "true",
+    "last_opened_file_path": "/Users/mistycloud/Library/CloudStorage/OneDrive-UniversityofCapeTown/UCT - Courses/CSC2001F/CSC2001F - Assignments/Assignment 1/GenericApp/src/main/resources/com/example/genericapp",
+    "project.structure.last.edited": "Modules",
+    "project.structure.proportion": "0.15",
+    "project.structure.side.proportion": "0.2",
+    "settings.editor.selected.configurable": "preferences.lookFeel"
   }
-}</component>
+}]]></component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
       <recent name="$PROJECT_DIR$/src/main/resources/com/example/genericapp" />
@@ -61,13 +64,26 @@
       <recent name="com.example.genericapp" />
     </key>
   </component>
-  <component name="RunManager">
+  <component name="RunManager" selected="Application.ArrayController">
     <configuration name="ArrayController" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="com.example.genericapp.ArrayController" />
       <module name="GenericApp" />
       <extension name="coverage">
         <pattern>
           <option name="PATTERN" value="com.example.genericapp.Application.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="textBasedGUI" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.example.genericapp.textBasedGUI" />
+      <module name="GenericApp" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.example.genericapp.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -89,6 +105,7 @@
     <recent_temporary>
       <list>
         <item itemvalue="Application.ArrayController" />
+        <item itemvalue="Application.textBasedGUI" />
       </list>
     </recent_temporary>
   </component>
@@ -156,7 +173,15 @@
       <option name="project" value="LOCAL" />
       <updated>1709067511006</updated>
     </task>
-    <option name="localTasksCounter" value="7" />
+    <task id="LOCAL-00007" summary="Validation condition for all text boxes to be filled was added.">
+      <option name="closed" value="true" />
+      <created>1709067745919</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1709067745919</updated>
+    </task>
+    <option name="localTasksCounter" value="8" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -177,6 +202,7 @@
     <MESSAGE value="Fixed Error in module-info.java" />
     <MESSAGE value="Added Comments and improved the search method calls for ArrayManager." />
     <MESSAGE value="Functionality to add new terms to the knowledge base has been added." />
-    <option name="LAST_COMMIT_MESSAGE" value="Functionality to add new terms to the knowledge base has been added." />
+    <MESSAGE value="Validation condition for all text boxes to be filled was added." />
+    <option name="LAST_COMMIT_MESSAGE" value="Validation condition for all text boxes to be filled was added." />
   </component>
 </project>

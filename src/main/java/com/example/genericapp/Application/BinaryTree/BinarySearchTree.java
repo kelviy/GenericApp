@@ -7,6 +7,15 @@ public class BinarySearchTree<dataType> {
         this.root = null;
     }
 
+    public BinaryNode<dataType> find() {
+        // TODO: search
+        return null;
+    }
+
+    public void delete() {
+        // TODO: delete
+    }
+
     public boolean insert(dataType data) {
         if (root == null) {
             root = new BinaryNode<dataType>(data);

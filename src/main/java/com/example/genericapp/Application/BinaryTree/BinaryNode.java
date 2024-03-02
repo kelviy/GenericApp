@@ -2,8 +2,8 @@ package com.example.genericapp.Application.BinaryTree;
 
 public class BinaryNode<dataType> {
     private dataType data;
-    private BinaryNode left;
-    private BinaryNode right;
+    private BinaryNode<dataType> left;
+    private BinaryNode<dataType> right;
 
     public BinaryNode(dataType data) {
         this(data, null, null);
@@ -22,19 +22,19 @@ public class BinaryNode<dataType> {
         this.data = data;
     }
 
-    public BinaryNode getLeft() {
+    public BinaryNode<dataType> getLeft() {
         return left;
     }
 
-    public void setLeft(BinaryNode left) {
+    public void setLeft(BinaryNode<dataType> left) {
         this.left = left;
     }
 
-    public BinaryNode getRight() {
+    public BinaryNode<dataType> getRight() {
         return right;
     }
 
-    public void setRight(BinaryNode right) {
+    public void setRight(BinaryNode<dataType> right) {
         this.right = right;
     }
 }
