@@ -39,7 +39,7 @@ public class BinarySearchTree<dataType extends GenericData> {
             root = new BinaryNode<dataType>(data);
         }
         else {
-            insert(d, root);
+            insert(data, root);
         }
     }
 

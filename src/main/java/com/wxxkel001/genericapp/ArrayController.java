@@ -21,7 +21,7 @@ public class ArrayController extends Application {
 
     // GUI Variables
     @FXML
-    private TextField searchTextBox, termTextBox;
+    private TextField searchTextBox, termTextBox, loadTextBox;
     @FXML
     private TextArea statementTextBox;
     @FXML
@@ -126,6 +126,13 @@ public class ArrayController extends Application {
     }
 
     @FXML
+    protected void onLoadButtonClick() {
+        String fileName = loadTextBox.getText();
+        manager.loadData(fileName);
+        System.out.println("This load Button is working");
+    }
+
+    @FXML
     protected void initialize() {
 
         // Initialize the table
@@ -140,9 +147,9 @@ public class ArrayController extends Application {
         );
         dataTable.setItems(data);
 
-        // Initialize the Choice Box
-        String[] textFileList = {"GenericsKB.txt", "GenericsKB-additional.txt"};
-        dataChoiceBox.setItems(FXCollections.observableArrayList(textFileList));
+//        // Initialize the Choice Box
+//        String[] textFileList = {"GenericsKB.txt", "GenericsKB-additional.txt"};
+//        dataChoiceBox.setItems(FXCollections.observableArrayList(textFileList));
 
         // Initialize Toggle Groups
         radioButtonSentence.setToggleGroup(searchRadioGroup);
