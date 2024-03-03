@@ -34,6 +34,32 @@ public class BinarySearchTree<dataType extends GenericData> {
         }
     }
 
+    public boolean searchUpdate(dataType d) {
+        if (root == null) {
+            return false;
+        }
+        else {
+            return searchUpdate(d, root);
+        }
+    }
+
+    public boolean searchUpdate(dataType d, BinaryNode<dataType> node) {
+        int cmp = d.compareTo(node.getData());
+
+        if (cmp == 0) {
+            if (node.getData().getScore() < d.getScore()) {
+                node.setData(d);
+            }
+            return true;
+        }
+        else if (cmp < 0) {
+            return (node.getLeft() == null) ? false : searchUpdate(d, node.getLeft());
+        }
+        else {
+            return (node.getRight() == null) ? false : searchUpdate(d, node.getRight());
+        }
+    }
+
     public void insert(dataType data) {
         if (root == null) {
             root = new BinaryNode<dataType>(data);
@@ -42,6 +68,8 @@ public class BinarySearchTree<dataType extends GenericData> {
             insert(data, root);
         }
     }
+
+
 
     // TODO: How to handle duplicates
     public void insert(dataType d, BinaryNode<dataType> node) {
@@ -60,6 +88,14 @@ public class BinarySearchTree<dataType extends GenericData> {
             }
         }
     }
+
+    public void insertItem(dataType d) {
+        boolean flag = searchUpdate(d);
+        if (!flag) {
+            insert(d);
+        }
+    }
+
 
     public ArrayList<GenericData> getAllData() {
         int size = getSize();

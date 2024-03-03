@@ -15,6 +15,26 @@ public class TableData {
             this.score = new SimpleDoubleProperty(score);
         }
 
+    // Converts an inputted Generic Array and outputs a TableData Array without null elements trailing at the end
+    public static TableData[] convertGenericToTable(GenericData[] gData) {
+        int size = 0;
+
+        for(int i = 0; i < gData.length; i++) {
+            if (gData[i] == null) {
+                break;
+            }
+            size++;
+        }
+
+        TableData[] tData = new TableData[size];
+
+        for (int i = 0; i < tData.length; i++) {
+            tData[i] = GenericData.convertTableData(gData[i]);
+        }
+
+        return tData;
+    }
+
     public String getTerm() {
         return term.get();
     }

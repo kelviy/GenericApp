@@ -32,8 +32,6 @@ public class ArrayController extends Application {
     @FXML
     private Label searchStatus;
     @FXML
-    private ChoiceBox dataChoiceBox;
-    @FXML
     private RadioButton radioButtonTerm, radioButtonSentence;
     @FXML
     private Label actionStatus;
@@ -156,7 +154,6 @@ public class ArrayController extends Application {
                 new PropertyValueFactory<GenericData, Integer>("score")
         );
         dataTable.setItems(data);
-
 
         // Initialize Toggle Groups
         radioButtonSentence.setToggleGroup(searchRadioGroup);

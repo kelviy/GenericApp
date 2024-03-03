@@ -1,4 +1,4 @@
-module com.example.genericapp {
+module com.wxxkel001.genericapp {
     requires javafx.controls;
     requires javafx.fxml;
     requires javafx.web;
@@ -11,12 +11,12 @@ module com.example.genericapp {
     requires eu.hansolo.tilesfx;
     requires com.almasb.fxgl.all;
 
+    opens com.wxxkel001.genericapp to javafx.fxml;
+    exports com.wxxkel001.genericapp;
     exports com.wxxkel001.genericapp.Application;
     opens com.wxxkel001.genericapp.Application to javafx.fxml;
-    exports com.wxxkel001.genericapp.Application.BinaryTree;
-    opens com.wxxkel001.genericapp.Application.BinaryTree to javafx.fxml;
     exports com.wxxkel001.genericapp.Application.Array;
     opens com.wxxkel001.genericapp.Application.Array to javafx.fxml;
-    exports com.wxxkel001.genericapp;
-    opens com.wxxkel001.genericapp to javafx.fxml;
+    exports com.wxxkel001.genericapp.Application.BinaryTree;
+    opens com.wxxkel001.genericapp.Application.BinaryTree to javafx.fxml;
 }

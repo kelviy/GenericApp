@@ -1,6 +1,8 @@
 package com.wxxkel001.genericapp.Application.BinaryTree;
 
 import com.wxxkel001.genericapp.Application.GenericData;
+import com.wxxkel001.genericapp.Application.TableData;
+import org.controlsfx.control.tableview2.filter.filtereditor.SouthFilter;
 
 import java.io.BufferedReader;
 import java.io.FileNotFoundException;
@@ -33,7 +35,7 @@ public class BinaryTreeManager {
                 double score = Double.parseDouble(parts[2]);
 
                 GenericData data = new GenericData(term, sentence, score);
-                dataStructure.insert(data);
+                dataStructure.insertItem(data);
             }
 
         } catch(FileNotFoundException e) {
@@ -43,9 +45,12 @@ public class BinaryTreeManager {
         }
     }
 
-    public GenericData searchTerm(String term) {
+    public TableData searchTerm(String term) {
         GenericData temp = new GenericData(term, null, -1);
-        return dataStructure.find(temp).getData();
+        if (dataStructure.find(temp) == null) {
+            return null;
+        }
+        return GenericData.convertTableData(dataStructure.find(temp).getData());
     }
 
     public String viewAll() {
@@ -56,6 +61,17 @@ public class BinaryTreeManager {
         return temp;
     }
 
+    public ArrayList<TableData> getTotalTableArray() {
+        ArrayList<TableData> tableData = new ArrayList<>();
+        for (GenericData i : dataStructure.getAllData()) {
+            tableData.add(GenericData.convertTableData(i));
+        }
+        return tableData;
+    }
+
+    public void addItem(String term, String sentence, double score) {
+        dataStructure.insertItem(new GenericData(term, sentence, score));
+    }
 
 
 }

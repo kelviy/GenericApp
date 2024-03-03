@@ -80,13 +80,13 @@ public class ArrayManager {
 
     // returns all data Array converted to Table Array
     public TableData[] getTotalTableArray() {
-        return convertGenericToTable(data);
+        return TableData.convertGenericToTable(data);
     }
 
     // returns an all items that match the given term
     public TableData[] searchListTermResult(String term) {
         GenericData[] searchItems = searchMultiTerm(term);
-        TableData[] returnData = convertGenericToTable(searchItems);
+        TableData[] returnData = TableData.convertGenericToTable(searchItems);
 
         return returnData;
     }
@@ -94,30 +94,11 @@ public class ArrayManager {
     // returns all items that match the given statement
     public TableData[] searchListSentenceResult(String sentence) {
         GenericData[] matched = searchMultiSentence(sentence);
-        TableData[] returnData = convertGenericToTable(matched);
+        TableData[] returnData = TableData.convertGenericToTable(matched);
 
         return returnData;
     }
 
-    // Converts an inputted Generic Array and outputs a TableData Array without null elements trailing at the end
-    public TableData[] convertGenericToTable(GenericData[] gData) {
-        int size = 0;
-
-        for(int i = 0; i < gData.length; i++) {
-            if (gData[i] == null) {
-                break;
-            }
-            size++;
-        }
-
-        TableData[] tData = new TableData[size];
-
-        for (int i = 0; i < tData.length; i++) {
-            tData[i] = GenericData.convertTableData(gData[i]);
-        }
-
-        return tData;
-    }
 
     public String addItem(String term, String sentence, double score) {
         int index = searchTerm(term);
