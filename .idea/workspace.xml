@@ -14,47 +14,7 @@
   <component name="ChangeListManager">
     <list default="true" id="b0f52645-b9ed-414f-a4fc-75351c8a97cd" name="Changes" comment="Validation condition for all text boxes to be filled was added.">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/javadoc/allclasses-index.html" beforeDir="false" afterPath="$PROJECT_DIR$/javadoc/allclasses-index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/javadoc/allpackages-index.html" beforeDir="false" afterPath="$PROJECT_DIR$/javadoc/allpackages-index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/javadoc/com.wxxkel001.genericapp/com/wxxkel001/genericapp/ArrayController.html" beforeDir="false" afterPath="$PROJECT_DIR$/javadoc/com.wxxkel001.genericapp/com/wxxkel001/genericapp/ArrayController.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/javadoc/com.wxxkel001.genericapp/com/wxxkel001/genericapp/BinaryTreeController.html" beforeDir="false" afterPath="$PROJECT_DIR$/javadoc/com.wxxkel001.genericapp/com/wxxkel001/genericapp/BinaryTreeController.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/javadoc/com.wxxkel001.genericapp/com/wxxkel001/genericapp/package-summary.html" beforeDir="false" afterPath="$PROJECT_DIR$/javadoc/com.wxxkel001.genericapp/com/wxxkel001/genericapp/package-summary.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/javadoc/com.wxxkel001.genericapp/com/wxxkel001/genericapp/package-tree.html" beforeDir="false" afterPath="$PROJECT_DIR$/javadoc/com.wxxkel001.genericapp/com/wxxkel001/genericapp/package-tree.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/javadoc/com.wxxkel001.genericapp/com/wxxkel001/genericapp/textBasedGUI.html" beforeDir="false" afterPath="$PROJECT_DIR$/javadoc/com.wxxkel001.genericapp/com/wxxkel001/genericapp/textBasedGUI.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/javadoc/com.wxxkel001.genericapp/module-summary.html" beforeDir="false" afterPath="$PROJECT_DIR$/javadoc/com.wxxkel001.genericapp/module-summary.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/javadoc/help-doc.html" beforeDir="false" afterPath="$PROJECT_DIR$/javadoc/help-doc.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/javadoc/index-files/index-1.html" beforeDir="false" afterPath="$PROJECT_DIR$/javadoc/index-files/index-1.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/javadoc/index-files/index-10.html" beforeDir="false" afterPath="$PROJECT_DIR$/javadoc/index-files/index-10.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/javadoc/index-files/index-11.html" beforeDir="false" afterPath="$PROJECT_DIR$/javadoc/index-files/index-11.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/javadoc/index-files/index-12.html" beforeDir="false" afterPath="$PROJECT_DIR$/javadoc/index-files/index-12.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/javadoc/index-files/index-2.html" beforeDir="false" afterPath="$PROJECT_DIR$/javadoc/index-files/index-2.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/javadoc/index-files/index-3.html" beforeDir="false" afterPath="$PROJECT_DIR$/javadoc/index-files/index-3.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/javadoc/index-files/index-4.html" beforeDir="false" afterPath="$PROJECT_DIR$/javadoc/index-files/index-4.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/javadoc/index-files/index-5.html" beforeDir="false" afterPath="$PROJECT_DIR$/javadoc/index-files/index-5.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/javadoc/index-files/index-6.html" beforeDir="false" afterPath="$PROJECT_DIR$/javadoc/index-files/index-6.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/javadoc/index-files/index-7.html" beforeDir="false" afterPath="$PROJECT_DIR$/javadoc/index-files/index-7.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/javadoc/index-files/index-8.html" beforeDir="false" afterPath="$PROJECT_DIR$/javadoc/index-files/index-8.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/javadoc/index-files/index-9.html" beforeDir="false" afterPath="$PROJECT_DIR$/javadoc/index-files/index-9.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/javadoc/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/javadoc/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/javadoc/legal/LICENSE" beforeDir="false" afterPath="$PROJECT_DIR$/javadoc/legal/LICENSE" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/javadoc/legal/jquery.md" beforeDir="false" afterPath="$PROJECT_DIR$/javadoc/legal/jquery.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/javadoc/legal/jqueryUI.md" beforeDir="false" afterPath="$PROJECT_DIR$/javadoc/legal/jqueryUI.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/javadoc/member-search-index.js" beforeDir="false" afterPath="$PROJECT_DIR$/javadoc/member-search-index.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/javadoc/overview-tree.html" beforeDir="false" afterPath="$PROJECT_DIR$/javadoc/overview-tree.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/javadoc/package-search-index.js" beforeDir="false" afterPath="$PROJECT_DIR$/javadoc/package-search-index.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/javadoc/script-dir/jquery-ui.min.css" beforeDir="false" afterPath="$PROJECT_DIR$/javadoc/script-dir/jquery-ui.min.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/javadoc/script-dir/jquery-ui.min.js" beforeDir="false" afterPath="$PROJECT_DIR$/javadoc/script-dir/jquery-ui.min.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/javadoc/script.js" beforeDir="false" afterPath="$PROJECT_DIR$/javadoc/script.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/javadoc/search.js" beforeDir="false" afterPath="$PROJECT_DIR$/javadoc/search.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/javadoc/stylesheet.css" beforeDir="false" afterPath="$PROJECT_DIR$/javadoc/stylesheet.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/javadoc/type-search-index.js" beforeDir="false" afterPath="$PROJECT_DIR$/javadoc/type-search-index.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/artifacts/GenericApp_jar/GenericApp.jar" beforeDir="false" afterPath="$PROJECT_DIR$/out/artifacts/GenericApp_jar/GenericApp.jar" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/wxxkel001/genericapp/ArrayController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/wxxkel001/genericapp/ArrayController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/wxxkel001/genericapp/BinaryTreeController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/wxxkel001/genericapp/BinaryTreeController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/wxxkel001/genericapp/Manager/BinaryTree/BinarySearchTree.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/wxxkel001/genericapp/Manager/BinaryTree/BinarySearchTree.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/wxxkel001/genericapp/Manager/BinaryTree/BinaryTreeManager.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/wxxkel001/genericapp/Manager/BinaryTree/BinaryTreeManager.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/wxxkel001/genericapp/Manager/GenericData.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/wxxkel001/genericapp/Manager/GenericData.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/wxxkel001/genericapp/Manager/TableData.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/wxxkel001/genericapp/Manager/TableData.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Makefile" beforeDir="false" afterPath="$PROJECT_DIR$/Makefile" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
