@@ -12,6 +12,9 @@ import javafx.scene.Scene;
 import javafx.scene.control.*;
 import javafx.scene.control.cell.PropertyValueFactory;
 import javafx.scene.paint.Color;
+import javafx.scene.paint.CycleMethod;
+import javafx.scene.paint.LinearGradient;
+import javafx.scene.paint.Stop;
 import javafx.stage.Stage;
 
 import java.io.File;
@@ -54,6 +57,14 @@ public class ArrayController extends Application {
         stage.setTitle("Array Application");
         stage.setScene(scene);
         stage.show();
+
+        scene.setFill(new LinearGradient(
+                0, 0, 1, 1, true,                      //sizing
+                CycleMethod.NO_CYCLE,                  //cycling
+                new Stop(0, Color.web("#81c483")),     //colors
+                new Stop(1, Color.web("#fcc200")))
+        );
+
     }
 
     public static void main(String[] args) {
