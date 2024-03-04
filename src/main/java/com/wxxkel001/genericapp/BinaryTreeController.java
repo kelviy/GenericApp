@@ -8,10 +8,18 @@ import javafx.collections.FXCollections;
 import javafx.collections.ObservableList;
 import javafx.fxml.FXML;
 import javafx.fxml.FXMLLoader;
+import javafx.geometry.Insets;
 import javafx.scene.Scene;
 import javafx.scene.control.*;
 import javafx.scene.control.cell.PropertyValueFactory;
+import javafx.scene.layout.Background;
+import javafx.scene.layout.BackgroundFill;
+import javafx.scene.layout.CornerRadii;
+import javafx.scene.layout.VBox;
 import javafx.scene.paint.Color;
+import javafx.scene.paint.CycleMethod;
+import javafx.scene.paint.LinearGradient;
+import javafx.scene.paint.Stop;
 import javafx.stage.Stage;
 
 import java.io.File;
@@ -35,6 +43,12 @@ public class BinaryTreeController extends Application {
     private ToggleGroup searchRadioGroup = new ToggleGroup();
     @FXML
     private Spinner<Double> spinnerScore;
+    @FXML
+    private VBox vBox;
+    @FXML
+    private SplitPane splitPane;
+    @FXML
+    private ScrollPane scrollPane;
 
 
     // Manager object
@@ -135,5 +149,20 @@ public class BinaryTreeController extends Application {
                 new PropertyValueFactory<GenericData, Integer>("score")
         );
         dataTable.setItems(data);
+
+
+        vBox.setBackground(new Background(
+                new BackgroundFill(
+                        new LinearGradient(0, 0, 0, 1, true,
+                                CycleMethod.NO_CYCLE,
+                                new Stop(0, Color.web("#A9CCE3")),
+                                new Stop(1, Color.web("#D4E6F1"))
+                        ), CornerRadii.EMPTY, Insets.EMPTY
+                )
+        ));
+        
+        splitPane.setBackground(Background.EMPTY);
+        scrollPane.setStyle("-fx-background: #D4E6F1; -fx-background-color: #D4E6F1; ");
+
     }
 }

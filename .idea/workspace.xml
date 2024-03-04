@@ -14,47 +14,9 @@
   <component name="ChangeListManager">
     <list default="true" id="b0f52645-b9ed-414f-a4fc-75351c8a97cd" name="Changes" comment="Validation condition for all text boxes to be filled was added.">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/javadoc/allclasses-index.html" beforeDir="false" afterPath="$PROJECT_DIR$/javadoc/allclasses-index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/javadoc/allpackages-index.html" beforeDir="false" afterPath="$PROJECT_DIR$/javadoc/allpackages-index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/javadoc/com.wxxkel001.genericapp/com/wxxkel001/genericapp/Application/Array/ArrayManager.html" beforeDir="false" afterPath="$PROJECT_DIR$/javadoc/com.wxxkel001.genericapp/com/wxxkel001/genericapp/Application/Array/ArrayManager.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/javadoc/com.wxxkel001.genericapp/com/wxxkel001/genericapp/Application/Array/package-summary.html" beforeDir="false" afterPath="$PROJECT_DIR$/javadoc/com.wxxkel001.genericapp/com/wxxkel001/genericapp/Application/Array/package-summary.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/javadoc/com.wxxkel001.genericapp/com/wxxkel001/genericapp/Application/Array/package-tree.html" beforeDir="false" afterPath="$PROJECT_DIR$/javadoc/com.wxxkel001.genericapp/com/wxxkel001/genericapp/Application/Array/package-tree.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/javadoc/com.wxxkel001.genericapp/com/wxxkel001/genericapp/Application/BinaryTree/BinaryNode.html" beforeDir="false" afterPath="$PROJECT_DIR$/javadoc/com.wxxkel001.genericapp/com/wxxkel001/genericapp/Application/BinaryTree/BinaryNode.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/javadoc/com.wxxkel001.genericapp/com/wxxkel001/genericapp/Application/BinaryTree/BinarySearchTree.html" beforeDir="false" afterPath="$PROJECT_DIR$/javadoc/com.wxxkel001.genericapp/com/wxxkel001/genericapp/Application/BinaryTree/BinarySearchTree.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/javadoc/com.wxxkel001.genericapp/com/wxxkel001/genericapp/Application/BinaryTree/BinaryTreeManager.html" beforeDir="false" afterPath="$PROJECT_DIR$/javadoc/com.wxxkel001.genericapp/com/wxxkel001/genericapp/Application/BinaryTree/BinaryTreeManager.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/javadoc/com.wxxkel001.genericapp/com/wxxkel001/genericapp/Application/BinaryTree/package-summary.html" beforeDir="false" afterPath="$PROJECT_DIR$/javadoc/com.wxxkel001.genericapp/com/wxxkel001/genericapp/Application/BinaryTree/package-summary.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/javadoc/com.wxxkel001.genericapp/com/wxxkel001/genericapp/Application/BinaryTree/package-tree.html" beforeDir="false" afterPath="$PROJECT_DIR$/javadoc/com.wxxkel001.genericapp/com/wxxkel001/genericapp/Application/BinaryTree/package-tree.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/javadoc/com.wxxkel001.genericapp/com/wxxkel001/genericapp/Application/GenericData.html" beforeDir="false" afterPath="$PROJECT_DIR$/javadoc/com.wxxkel001.genericapp/com/wxxkel001/genericapp/Application/GenericData.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/javadoc/com.wxxkel001.genericapp/com/wxxkel001/genericapp/Application/TableData.html" beforeDir="false" afterPath="$PROJECT_DIR$/javadoc/com.wxxkel001.genericapp/com/wxxkel001/genericapp/Application/TableData.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/javadoc/com.wxxkel001.genericapp/com/wxxkel001/genericapp/Application/package-summary.html" beforeDir="false" afterPath="$PROJECT_DIR$/javadoc/com.wxxkel001.genericapp/com/wxxkel001/genericapp/Application/package-summary.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/javadoc/com.wxxkel001.genericapp/com/wxxkel001/genericapp/Application/package-tree.html" beforeDir="false" afterPath="$PROJECT_DIR$/javadoc/com.wxxkel001.genericapp/com/wxxkel001/genericapp/Application/package-tree.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/javadoc/com.wxxkel001.genericapp/com/wxxkel001/genericapp/package-summary.html" beforeDir="false" afterPath="$PROJECT_DIR$/javadoc/com.wxxkel001.genericapp/com/wxxkel001/genericapp/package-summary.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/javadoc/com.wxxkel001.genericapp/module-summary.html" beforeDir="false" afterPath="$PROJECT_DIR$/javadoc/com.wxxkel001.genericapp/module-summary.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/javadoc/element-list" beforeDir="false" afterPath="$PROJECT_DIR$/javadoc/element-list" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/javadoc/index-files/index-1.html" beforeDir="false" afterPath="$PROJECT_DIR$/javadoc/index-files/index-1.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/javadoc/index-files/index-10.html" beforeDir="false" afterPath="$PROJECT_DIR$/javadoc/index-files/index-10.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/javadoc/index-files/index-11.html" beforeDir="false" afterPath="$PROJECT_DIR$/javadoc/index-files/index-11.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/javadoc/index-files/index-12.html" beforeDir="false" afterPath="$PROJECT_DIR$/javadoc/index-files/index-12.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/javadoc/index-files/index-2.html" beforeDir="false" afterPath="$PROJECT_DIR$/javadoc/index-files/index-2.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/javadoc/index-files/index-3.html" beforeDir="false" afterPath="$PROJECT_DIR$/javadoc/index-files/index-3.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/javadoc/index-files/index-4.html" beforeDir="false" afterPath="$PROJECT_DIR$/javadoc/index-files/index-4.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/javadoc/index-files/index-5.html" beforeDir="false" afterPath="$PROJECT_DIR$/javadoc/index-files/index-5.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/javadoc/index-files/index-6.html" beforeDir="false" afterPath="$PROJECT_DIR$/javadoc/index-files/index-6.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/javadoc/index-files/index-7.html" beforeDir="false" afterPath="$PROJECT_DIR$/javadoc/index-files/index-7.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/javadoc/index-files/index-8.html" beforeDir="false" afterPath="$PROJECT_DIR$/javadoc/index-files/index-8.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/javadoc/overview-tree.html" beforeDir="false" afterPath="$PROJECT_DIR$/javadoc/overview-tree.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/javafx.swing.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/artifacts/GenericApp_jar/GenericApp.jar" beforeDir="false" afterPath="$PROJECT_DIR$/out/artifacts/GenericApp_jar/GenericApp.jar" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/wxxkel001/genericapp/Application/Array/ArrayManager.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/wxxkel001/genericapp/Manager/Array/ArrayManager.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/wxxkel001/genericapp/Application/BinaryTree/BinaryNode.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/wxxkel001/genericapp/Manager/BinaryTree/BinaryNode.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/wxxkel001/genericapp/Application/BinaryTree/BinarySearchTree.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/wxxkel001/genericapp/Manager/BinaryTree/BinarySearchTree.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/wxxkel001/genericapp/Application/BinaryTree/BinaryTreeManager.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/wxxkel001/genericapp/Manager/BinaryTree/BinaryTreeManager.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/wxxkel001/genericapp/Application/GenericData.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/wxxkel001/genericapp/Manager/GenericData.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/wxxkel001/genericapp/Application/TableData.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/wxxkel001/genericapp/Manager/TableData.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/com/wxxkel001/genericapp/ArrayController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/wxxkel001/genericapp/ArrayController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/wxxkel001/genericapp/BinaryTreeController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/wxxkel001/genericapp/BinaryTreeController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/wxxkel001/genericapp/textBasedGUI.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/wxxkel001/genericapp/textBasedGUI.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/module-info.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/module-info.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/com/wxxkel001/genericapp/array_view.fxml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/com/wxxkel001/genericapp/array_view.fxml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/com/wxxkel001/genericapp/binaryTree_view.fxml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/com/wxxkel001/genericapp/binaryTree_view.fxml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -95,29 +57,29 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "Application.ArrayController.executor": "Run",
-    "Application.BinaryTreeController.executor": "Run",
-    "Application.GenericApplication.executor": "Run",
-    "Application.GenericController.executor": "Run",
-    "Application.com.wxxkel001.genericapp.ArrayController.executor": "Run",
-    "Application.com.wxxkel001.genericapp.textBasedGUI.executor": "Run",
-    "Application.textBasedGUI.executor": "Run",
-    "JAR Application.GenericApp.jar.executor": "Run",
-    "Maven.GenericApp [org.apache.maven.plugins:maven-compiler-plugin:3.11.0:compile].executor": "Run",
-    "Maven.GenericApp [org.openjfx:javafx-maven-plugin:0.0.8:run].executor": "Run",
-    "RunOnceActivity.OpenProjectViewOnStart": "true",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
-    "kotlin-language-version-configured": "true",
-    "last_opened_file_path": "/Users/mistycloud/Library/CloudStorage/OneDrive-UniversityofCapeTown/UCT - Courses/CSC2001F/CSC2001F - Assignments/Assignment 1/new/GenericApp/src/main/java/com/wxxkel001/genericapp",
-    "project.structure.last.edited": "Project",
-    "project.structure.proportion": "0.15",
-    "project.structure.side.proportion": "0.29425287",
-    "settings.editor.selected.configurable": "configurable.group.build"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;Application.ArrayController.executor&quot;: &quot;Run&quot;,
+    &quot;Application.BinaryTreeController.executor&quot;: &quot;Run&quot;,
+    &quot;Application.GenericApplication.executor&quot;: &quot;Run&quot;,
+    &quot;Application.GenericController.executor&quot;: &quot;Run&quot;,
+    &quot;Application.com.wxxkel001.genericapp.ArrayController.executor&quot;: &quot;Run&quot;,
+    &quot;Application.com.wxxkel001.genericapp.textBasedGUI.executor&quot;: &quot;Run&quot;,
+    &quot;Application.textBasedGUI.executor&quot;: &quot;Run&quot;,
+    &quot;JAR Application.GenericApp.jar.executor&quot;: &quot;Run&quot;,
+    &quot;Maven.GenericApp [org.apache.maven.plugins:maven-compiler-plugin:3.11.0:compile].executor&quot;: &quot;Run&quot;,
+    &quot;Maven.GenericApp [org.openjfx:javafx-maven-plugin:0.0.8:run].executor&quot;: &quot;Run&quot;,
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
+    &quot;kotlin-language-version-configured&quot;: &quot;true&quot;,
+    &quot;last_opened_file_path&quot;: &quot;/Users/mistycloud/Library/CloudStorage/OneDrive-UniversityofCapeTown/UCT - Courses/CSC2001F/CSC2001F - Assignments/Assignment 1/new/GenericApp/src/main/java/com/wxxkel001/genericapp&quot;,
+    &quot;project.structure.last.edited&quot;: &quot;Project&quot;,
+    &quot;project.structure.proportion&quot;: &quot;0.15&quot;,
+    &quot;project.structure.side.proportion&quot;: &quot;0.29425287&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;configurable.group.build&quot;
   }
-}]]></component>
+}</component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
       <recent name="$PROJECT_DIR$/src/main/java/com/wxxkel001/genericapp" />
@@ -137,7 +99,7 @@
       <recent name="com.example.genericapp" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.com.wxxkel001.genericapp.ArrayController">
+  <component name="RunManager" selected="Application.ArrayController">
     <configuration name="ArrayController" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="com.wxxkel001.genericapp.ArrayController" />
       <module name="GenericApp" />
@@ -184,17 +146,16 @@
       <method v="2" />
     </configuration>
     <list>
+      <item itemvalue="Application.ArrayController" />
+      <item itemvalue="Application.textBasedGUI" />
       <item itemvalue="Application.BinaryTreeController" />
-      <item itemvalue="Application.com.wxxkel001.genericapp.ArrayController" />
-      <item itemvalue="Application.com.wxxkel001.genericapp.textBasedGUI" />
       <item itemvalue="JAR Application.GenericApp.jar" />
     </list>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.com.wxxkel001.genericapp.ArrayController" />
+        <item itemvalue="Application.ArrayController" />
         <item itemvalue="Application.BinaryTreeController" />
         <item itemvalue="JAR Application.GenericApp.jar" />
-        <item itemvalue="Application.com.wxxkel001.genericapp.textBasedGUI" />
       </list>
     </recent_temporary>
   </component>
@@ -203,6 +164,7 @@
       <set>
         <option value="jdk-11.0.22-liberica-11.0.22-3183f394aec4-dc35c6bd" />
         <option value="jdk-17.0.10-corretto-17.0.10-3183f394aec4-96c0d24d" />
+        <option value="jdk-21.0.2-openjdk-21.0.2-4caba194b151-322ed176" />
       </set>
     </attachedChunks>
   </component>
