@@ -1,18 +1,16 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
+  <component name="AnalysisUIOptions">
+    <option name="SCOPE_TYPE" value="8" />
+    <option name="CUSTOM_SCOPE_NAME" value="temp" />
+  </component>
   <component name="AutoImportSettings">
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
     <list default="true" id="b0f52645-b9ed-414f-a4fc-75351c8a97cd" name="Changes" comment="Validation condition for all text boxes to be filled was added.">
-      <change beforePath="$PROJECT_DIR$/.idea/artifacts/GenericApp_jar2.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/wxxkel001/genericapp/Application/Array/ArrayManager.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/wxxkel001/genericapp/Application/Array/ArrayManager.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/wxxkel001/genericapp/Application/BinaryTree/BinaryNode.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/wxxkel001/genericapp/Application/BinaryTree/BinaryNode.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/wxxkel001/genericapp/Application/BinaryTree/BinarySearchTree.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/wxxkel001/genericapp/Application/BinaryTree/BinarySearchTree.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/wxxkel001/genericapp/Application/GenericData.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/wxxkel001/genericapp/Application/GenericData.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/wxxkel001/genericapp/Application/TableData.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/wxxkel001/genericapp/Application/TableData.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/wxxkel001/genericapp/ArrayController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/wxxkel001/genericapp/ArrayController.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -38,6 +36,9 @@
   <component name="HighlightingSettingsPerFile">
     <setting file="jar:///Library/Java/JavaVirtualMachines/jdk-17.0.4.1.jdk/Contents/Home/lib/src.zip!/java.base/java/lang/String.java" root0="FORCE_HIGHLIGHTING" />
   </component>
+  <component name="NamedScopeManager">
+    <scope name="temp" pattern="src:com.wxxkel001.genericapp.Application.Array.ArrayManager||src:com.wxxkel001.genericapp.Application.BinaryTree.BinarySearchTree||src:com.wxxkel001.genericapp.Application.GenericData||src:com.wxxkel001.genericapp.Application.TableData||src:*..*||src:com.wxxkel001.genericapp..*||src:com.wxxkel001.genericapp.Application..*||src:com.wxxkel001.genericapp.Application.Array..*||src:com.wxxkel001.genericapp.Application.BinaryTree..*" />
+  </component>
   <component name="ProjectColorInfo">{
   &quot;associatedIndex&quot;: 2
 }</component>
@@ -47,29 +48,29 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "Application.ArrayController.executor": "Run",
-    "Application.BinaryTreeController.executor": "Run",
-    "Application.GenericApplication.executor": "Run",
-    "Application.GenericController.executor": "Run",
-    "Application.com.wxxkel001.genericapp.ArrayController.executor": "Run",
-    "Application.com.wxxkel001.genericapp.textBasedGUI.executor": "Run",
-    "Application.textBasedGUI.executor": "Run",
-    "JAR Application.GenericApp.jar.executor": "Run",
-    "Maven.GenericApp [org.apache.maven.plugins:maven-compiler-plugin:3.11.0:compile].executor": "Run",
-    "Maven.GenericApp [org.openjfx:javafx-maven-plugin:0.0.8:run].executor": "Run",
-    "RunOnceActivity.OpenProjectViewOnStart": "true",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
-    "kotlin-language-version-configured": "true",
-    "last_opened_file_path": "/Users/mistycloud/Library/CloudStorage/OneDrive-UniversityofCapeTown/UCT - Courses/CSC2001F/CSC2001F - Assignments/Assignment 1/GenericApp",
-    "project.structure.last.edited": "Modules",
-    "project.structure.proportion": "0.15",
-    "project.structure.side.proportion": "0.29425287",
-    "settings.editor.selected.configurable": "configurable.group.build"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;Application.ArrayController.executor&quot;: &quot;Run&quot;,
+    &quot;Application.BinaryTreeController.executor&quot;: &quot;Run&quot;,
+    &quot;Application.GenericApplication.executor&quot;: &quot;Run&quot;,
+    &quot;Application.GenericController.executor&quot;: &quot;Run&quot;,
+    &quot;Application.com.wxxkel001.genericapp.ArrayController.executor&quot;: &quot;Run&quot;,
+    &quot;Application.com.wxxkel001.genericapp.textBasedGUI.executor&quot;: &quot;Run&quot;,
+    &quot;Application.textBasedGUI.executor&quot;: &quot;Run&quot;,
+    &quot;JAR Application.GenericApp.jar.executor&quot;: &quot;Run&quot;,
+    &quot;Maven.GenericApp [org.apache.maven.plugins:maven-compiler-plugin:3.11.0:compile].executor&quot;: &quot;Run&quot;,
+    &quot;Maven.GenericApp [org.openjfx:javafx-maven-plugin:0.0.8:run].executor&quot;: &quot;Run&quot;,
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
+    &quot;kotlin-language-version-configured&quot;: &quot;true&quot;,
+    &quot;last_opened_file_path&quot;: &quot;/Users/mistycloud/Library/CloudStorage/OneDrive-UniversityofCapeTown/UCT - Courses/CSC2001F/CSC2001F - Assignments/Assignment 1/GenericApp&quot;,
+    &quot;project.structure.last.edited&quot;: &quot;Modules&quot;,
+    &quot;project.structure.proportion&quot;: &quot;0.15&quot;,
+    &quot;project.structure.side.proportion&quot;: &quot;0.29425287&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;configurable.group.build&quot;
   }
-}]]></component>
+}</component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
       <recent name="$PROJECT_DIR$" />
@@ -131,17 +132,6 @@
     <configuration name="GenericApp.jar" type="JarApplication" temporary="true">
       <option name="JAR_PATH" value="$PROJECT_DIR$/out/artifacts/GenericApp_jar/GenericApp.jar" />
       <method v="2" />
-    </configuration>
-    <configuration default="true" type="JetRunConfigurationType">
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration default="true" type="KotlinStandaloneScriptRunConfigurationType">
-      <option name="filePath" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
     </configuration>
     <recent_temporary>
       <list>

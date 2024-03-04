@@ -1,0 +1,5 @@
+module:com.wxxkel001.genericapp
+com.wxxkel001.genericapp
+com.wxxkel001.genericapp.Application
+com.wxxkel001.genericapp.Application.Array
+com.wxxkel001.genericapp.Application.BinaryTree
