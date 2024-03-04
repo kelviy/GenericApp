@@ -1,17 +1,13 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="AnalysisUIOptions">
-    <option name="SCOPE_TYPE" value="8" />
     <option name="CUSTOM_SCOPE_NAME" value="temp" />
   </component>
   <component name="AutoImportSettings">
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="b0f52645-b9ed-414f-a4fc-75351c8a97cd" name="Changes" comment="Validation condition for all text boxes to be filled was added.">
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-    </list>
+    <list default="true" id="b0f52645-b9ed-414f-a4fc-75351c8a97cd" name="Changes" comment="Validation condition for all text boxes to be filled was added." />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -36,6 +32,9 @@
   <component name="HighlightingSettingsPerFile">
     <setting file="jar:///Library/Java/JavaVirtualMachines/jdk-17.0.4.1.jdk/Contents/Home/lib/src.zip!/java.base/java/lang/String.java" root0="FORCE_HIGHLIGHTING" />
   </component>
+  <component name="MarkdownSettingsMigration">
+    <option name="stateVersion" value="1" />
+  </component>
   <component name="NamedScopeManager">
     <scope name="temp" pattern="src:com.wxxkel001.genericapp.Application.Array.ArrayManager||src:com.wxxkel001.genericapp.Application.BinaryTree.BinarySearchTree||src:com.wxxkel001.genericapp.Application.GenericData||src:com.wxxkel001.genericapp.Application.TableData||src:*..*||src:com.wxxkel001.genericapp..*||src:com.wxxkel001.genericapp.Application..*||src:com.wxxkel001.genericapp.Application.Array..*||src:com.wxxkel001.genericapp.Application.BinaryTree..*" />
   </component>
@@ -48,29 +47,29 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">{
-  &quot;keyToString&quot;: {
-    &quot;Application.ArrayController.executor&quot;: &quot;Run&quot;,
-    &quot;Application.BinaryTreeController.executor&quot;: &quot;Run&quot;,
-    &quot;Application.GenericApplication.executor&quot;: &quot;Run&quot;,
-    &quot;Application.GenericController.executor&quot;: &quot;Run&quot;,
-    &quot;Application.com.wxxkel001.genericapp.ArrayController.executor&quot;: &quot;Run&quot;,
-    &quot;Application.com.wxxkel001.genericapp.textBasedGUI.executor&quot;: &quot;Run&quot;,
-    &quot;Application.textBasedGUI.executor&quot;: &quot;Run&quot;,
-    &quot;JAR Application.GenericApp.jar.executor&quot;: &quot;Run&quot;,
-    &quot;Maven.GenericApp [org.apache.maven.plugins:maven-compiler-plugin:3.11.0:compile].executor&quot;: &quot;Run&quot;,
-    &quot;Maven.GenericApp [org.openjfx:javafx-maven-plugin:0.0.8:run].executor&quot;: &quot;Run&quot;,
-    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
-    &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
-    &quot;kotlin-language-version-configured&quot;: &quot;true&quot;,
-    &quot;last_opened_file_path&quot;: &quot;/Users/mistycloud/Library/CloudStorage/OneDrive-UniversityofCapeTown/UCT - Courses/CSC2001F/CSC2001F - Assignments/Assignment 1/GenericApp&quot;,
-    &quot;project.structure.last.edited&quot;: &quot;Modules&quot;,
-    &quot;project.structure.proportion&quot;: &quot;0.15&quot;,
-    &quot;project.structure.side.proportion&quot;: &quot;0.29425287&quot;,
-    &quot;settings.editor.selected.configurable&quot;: &quot;configurable.group.build&quot;
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "Application.ArrayController.executor": "Run",
+    "Application.BinaryTreeController.executor": "Run",
+    "Application.GenericApplication.executor": "Run",
+    "Application.GenericController.executor": "Run",
+    "Application.com.wxxkel001.genericapp.ArrayController.executor": "Run",
+    "Application.com.wxxkel001.genericapp.textBasedGUI.executor": "Run",
+    "Application.textBasedGUI.executor": "Run",
+    "JAR Application.GenericApp.jar.executor": "Run",
+    "Maven.GenericApp [org.apache.maven.plugins:maven-compiler-plugin:3.11.0:compile].executor": "Run",
+    "Maven.GenericApp [org.openjfx:javafx-maven-plugin:0.0.8:run].executor": "Run",
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
+    "kotlin-language-version-configured": "true",
+    "last_opened_file_path": "/Users/mistycloud/Library/CloudStorage/OneDrive-UniversityofCapeTown/UCT - Courses/CSC2001F/CSC2001F - Assignments/Assignment 1/GenericApp",
+    "project.structure.last.edited": "Artifacts",
+    "project.structure.proportion": "0.15",
+    "project.structure.side.proportion": "0.29425287",
+    "settings.editor.selected.configurable": "configurable.group.build"
   }
-}</component>
+}]]></component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
       <recent name="$PROJECT_DIR$" />
@@ -89,7 +88,7 @@
       <recent name="com.example.genericapp" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.com.wxxkel001.genericapp.ArrayController">
+  <component name="RunManager" selected="JAR Application.GenericApp.jar">
     <configuration name="BinaryTreeController" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="com.wxxkel001.genericapp.BinaryTreeController" />
       <module name="GenericApp" />
@@ -135,8 +134,8 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.com.wxxkel001.genericapp.ArrayController" />
         <item itemvalue="JAR Application.GenericApp.jar" />
+        <item itemvalue="Application.com.wxxkel001.genericapp.ArrayController" />
         <item itemvalue="Application.BinaryTreeController" />
         <item itemvalue="Application.com.wxxkel001.genericapp.textBasedGUI" />
       </list>
