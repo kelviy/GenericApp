@@ -3,20 +3,12 @@ module com.wxxkel001.genericapp {
     requires javafx.fxml;
     requires javafx.web;
 
-    requires org.controlsfx.controls;
-    requires com.dlsc.formsfx;
-    requires net.synedra.validatorfx;
-    requires org.kordamp.ikonli.javafx;
-    requires org.kordamp.bootstrapfx.core;
-    requires eu.hansolo.tilesfx;
-    requires com.almasb.fxgl.all;
-
     opens com.wxxkel001.genericapp to javafx.fxml;
     exports com.wxxkel001.genericapp;
-    exports com.wxxkel001.genericapp.Application;
-    opens com.wxxkel001.genericapp.Application to javafx.fxml;
-    exports com.wxxkel001.genericapp.Application.Array;
-    opens com.wxxkel001.genericapp.Application.Array to javafx.fxml;
-    exports com.wxxkel001.genericapp.Application.BinaryTree;
-    opens com.wxxkel001.genericapp.Application.BinaryTree to javafx.fxml;
+    exports com.wxxkel001.genericapp.Manager;
+    opens com.wxxkel001.genericapp.Manager to javafx.fxml;
+    exports com.wxxkel001.genericapp.Manager.Array;
+    opens com.wxxkel001.genericapp.Manager.Array to javafx.fxml;
+    exports com.wxxkel001.genericapp.Manager.BinaryTree;
+    opens com.wxxkel001.genericapp.Manager.BinaryTree to javafx.fxml;
 }

@@ -1,4 +1,4 @@
-package com.wxxkel001.genericapp.Application;
+package com.wxxkel001.genericapp.Manager;
 
 // Class that stores data for each object
 

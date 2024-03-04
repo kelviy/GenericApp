@@ -1,8 +1,8 @@
 package com.wxxkel001.genericapp;
 
-import com.wxxkel001.genericapp.Application.BinaryTree.BinaryTreeManager;
-import com.wxxkel001.genericapp.Application.GenericData;
-import com.wxxkel001.genericapp.Application.TableData;
+import com.wxxkel001.genericapp.Manager.BinaryTree.BinaryTreeManager;
+import com.wxxkel001.genericapp.Manager.GenericData;
+import com.wxxkel001.genericapp.Manager.TableData;
 import javafx.application.Application;
 import javafx.collections.FXCollections;
 import javafx.collections.ObservableList;

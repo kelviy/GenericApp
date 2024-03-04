@@ -1,6 +1,6 @@
 package com.wxxkel001.genericapp;
 
-import com.wxxkel001.genericapp.Application.BinaryTree.BinaryTreeManager;
+import com.wxxkel001.genericapp.Manager.BinaryTree.BinaryTreeManager;
 
 import java.util.Scanner;
 

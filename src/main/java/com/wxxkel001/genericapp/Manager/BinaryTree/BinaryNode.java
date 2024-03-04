@@ -1,6 +1,6 @@
-package com.wxxkel001.genericapp.Application.BinaryTree;
+package com.wxxkel001.genericapp.Manager.BinaryTree;
 
-import com.wxxkel001.genericapp.Application.GenericData;
+import com.wxxkel001.genericapp.Manager.GenericData;
 
 /**
  * The Node of the Binary Search Tree. Accepts GenericData
