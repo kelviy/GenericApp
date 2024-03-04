@@ -4,7 +4,11 @@ import com.wxxkel001.genericapp.Manager.GenericData;
 
 import java.util.ArrayList;
 
-
+/**
+ * A Binary Tree data structure. This data structure is tailored to handle GenericData.
+ * @autho Kelvin Wei
+ * @param <dataType> Accepts only GenericData and it's children.
+ */
 public class BinarySearchTree<dataType extends GenericData> {
     private BinaryNode<dataType> root;
 

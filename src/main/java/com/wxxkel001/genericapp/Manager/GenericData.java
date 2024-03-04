@@ -5,6 +5,7 @@ package com.wxxkel001.genericapp.Manager;
 /**
  * Class that stores the data for the knowledge base.
  * It stores the term, sentence and score
+ * @author Kelvin Wei
  */
 public class GenericData implements Comparable<GenericData> {
     private String term;

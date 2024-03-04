@@ -12,7 +12,6 @@ import javafx.geometry.Insets;
 import javafx.scene.Scene;
 import javafx.scene.control.*;
 import javafx.scene.control.cell.PropertyValueFactory;
-import javafx.scene.image.Image;
 import javafx.scene.layout.*;
 import javafx.scene.paint.*;
 import javafx.stage.Stage;
@@ -20,7 +19,10 @@ import javafx.stage.Stage;
 import java.io.File;
 import java.io.IOException;
 
-// table code is adapted from: https://docs.oracle.com/javafx/2/ui_controls/table-view.htm#CJAGHGBD
+/**
+ * This class acts like an API for the GUI and the Manager class. It stores a manager instance which it uses to interact with the backend side of the application.
+ * @author Kelvin Wei
+ */
 public class ArrayController extends Application {
 
     // GUI Variables
@@ -53,8 +55,11 @@ public class ArrayController extends Application {
     // Knowledge base Array
     private ObservableList<TableData> data = FXCollections.observableArrayList(manager.getTotalTableArray());
 
-    // Search button action
-
+    /**
+     * Starts the GUI
+     * @param stage
+     * @throws IOException
+     */
     @Override
     public void start(Stage stage) throws IOException {
         // Running the GUI
@@ -67,10 +72,14 @@ public class ArrayController extends Application {
 
     }
 
+
     public static void main(String[] args) {
         launch();
     }
 
+    /**
+     * Gets User Inputted Data. This data includes the user's decision to search via term or sentence. The application would then search the knowledge base for any items that matches the knowledge base - on term or sentence. The application would then display all found items on the table in the GUI.
+     */
     @FXML
     protected void onSearchButtonClick() {
         // Retrieve User Input
@@ -106,6 +115,9 @@ public class ArrayController extends Application {
         searchStatus.setText("Search Filter: '" + searchText + "'");
     }
 
+    /**
+     * Clears the search Text Box and repopulates the table with the knowledge base
+     */
     @FXML
     protected void onClearButtonClick() {
         // Clears the search Text Box and populate table with knowledge base
@@ -117,6 +129,9 @@ public class ArrayController extends Application {
         actionStatus.setText("");
     }
 
+    /**
+     * Retrieves User Input. Checks if term and sentence are filled. If not, the GUI prompts user to fill all fields. Once all fields are filled, the GUI would then insert/update the data using the manager object and update the table again.
+     */
     @FXML
     protected void onAddButton() {
         String status = "";
@@ -135,6 +150,9 @@ public class ArrayController extends Application {
         actionStatus.setText(status);
     }
 
+    /**
+     * User enters the name of a text file. The text file will then be attempted to be loaded. If file is found, the text file data will be loaded to the knowledge base.
+     */
     @FXML
     protected void onLoadButtonClick() {
         String fileName = loadTextBox.getText();
@@ -151,9 +169,14 @@ public class ArrayController extends Application {
         }
     }
 
+    /**
+     * This method initializes the table and sets a background color for the GUI.
+     */
     @FXML
     protected void initialize() {
 
+
+        // table code is adapted from: https://docs.oracle.com/javafx/2/ui_controls/table-view.htm#CJAGHGBD
         // Initialize the table
         termColumn.setCellValueFactory(
                 new PropertyValueFactory<TableData, String>("term")

@@ -25,6 +25,11 @@ import javafx.stage.Stage;
 import java.io.File;
 import java.io.IOException;
 
+/**
+ * This class acts sort of like an API for the GUI and the Manager class. It has a manager instance which it uses to interact with the backend side of the application.
+ * @author Kelvin Wei
+ */
+
 public class BinaryTreeController extends Application {
 
     // GUI Variables
@@ -55,6 +60,12 @@ public class BinaryTreeController extends Application {
     private BinaryTreeManager manager = new BinaryTreeManager();
 
     private ObservableList<TableData> data = FXCollections.observableArrayList(manager.getTotalTableArray());
+
+    /**
+     * Starts the GUI from binaryTree_view.fxml in resources folder
+     * @param stage
+     * @throws IOException
+     */
     @Override
     public void start(Stage stage) throws IOException {
         // Running the GUI
@@ -69,6 +80,9 @@ public class BinaryTreeController extends Application {
         launch();
     }
 
+    /**
+     * Retrieves User Input and Searches the Knowledge Base with Term or Statement. The matching terms/statements are then displayed on the table in GUI
+     */
     @FXML
     protected void onSearchButtonClick() {
         // Retrieve User Input
@@ -91,6 +105,9 @@ public class BinaryTreeController extends Application {
         searchStatus.setText("Search Filter: '" + searchText + "'");
     }
 
+    /**
+     * Clears the search Text Box and repopulates the table with the knowledge base
+     */
     @FXML
     protected void onClearButtonClick() {
         // Clears the search Text Box and populate table with knowledge base
@@ -102,10 +119,16 @@ public class BinaryTreeController extends Application {
         actionStatus.setText("");
     }
 
+    /**
+     * Retrieves User Input. Checks if term and sentence are filled. If not, the GUI prompts user to fill all fields. Once all fields are filled, the GUI would then insert/update the data using the manager object and update the table again.
+     */
     @FXML
     protected void onAddButton() {
         String status = "SUCCESS";
+
+        // checks if fields are empty or not
         if (termTextBox.getText() != "" && statementTextBox.getText() != "") {
+            // adds and updates the table
             manager.addItem(termTextBox.getText(), statementTextBox.getText(), spinnerScore.getValue());
             data = FXCollections.observableArrayList(manager.getTotalTableArray());
             dataTable.setItems(data);
@@ -120,10 +143,15 @@ public class BinaryTreeController extends Application {
         actionStatus.setText(status);
     }
 
+    /**
+     * User enters the name of a text file. The text file will then be attempted to be loaded. If file is found, the text file data will be loaded to the knowledge base.
+     */
     @FXML
     protected void onLoadButtonClick() {
+        // user input
         String fileName = loadTextBox.getText();
         if (new File(fileName).exists()) {
+            // loads the data if file is found
             manager.loadData(fileName);
             FXCollections.observableArrayList(manager.getTotalTableArray());
             data = FXCollections.observableArrayList(manager.getTotalTableArray());
@@ -131,13 +159,18 @@ public class BinaryTreeController extends Application {
             actionStatus.setTextFill(Color.GREEN);
             actionStatus.setText("FILE LOADED SUCCESSFULLY");
         } else {
+            // displays a FILE NOT FOUND status
             actionStatus.setTextFill(Color.RED);
             actionStatus.setText("FILE NOT FOUND");
         }
     }
 
+    /**
+     * This method initializes the table and sets a background color for the GUI.
+     */
     @FXML
     protected void initialize() {
+        // table code is adapted from: https://docs.oracle.com/javafx/2/ui_controls/table-view.htm#CJAGHGBD
         // Initialize the table
         termColumn.setCellValueFactory(
                 new PropertyValueFactory<TableData, String>("term")
@@ -151,6 +184,7 @@ public class BinaryTreeController extends Application {
         dataTable.setItems(data);
 
 
+        // sets background color
         vBox.setBackground(new Background(
                 new BackgroundFill(
                         new LinearGradient(0, 0, 0, 1, true,

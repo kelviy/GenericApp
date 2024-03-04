@@ -5,6 +5,7 @@ import javafx.beans.property.SimpleStringProperty;
 
 /**
  * Wrapper Class to display data in GUI. This class would need to be converted from a GenericData using the convertTableData() method in GenericData Class.
+ * @author Kelvin Wei
  */
 public class TableData {
         private final SimpleStringProperty term;
