@@ -13,9 +13,8 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="b0f52645-b9ed-414f-a4fc-75351c8a97cd" name="Changes" comment="Validation condition for all text boxes to be filled was added.">
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/wxxkel001/genericapp/Manager/Array/ArrayManager.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/wxxkel001/genericapp/Manager/Array/ArrayManager.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/wxxkel001/genericapp/Manager/GenericData.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/wxxkel001/genericapp/Manager/GenericData.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/wxxkel001/genericapp/Manager/TableData.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/wxxkel001/genericapp/Manager/TableData.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/wxxkel001/genericapp/ArrayController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/wxxkel001/genericapp/ArrayController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/wxxkel001/genericapp/BinaryTreeController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/wxxkel001/genericapp/BinaryTreeController.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -106,7 +105,7 @@
       <recent name="com.example.genericapp" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.ArrayController">
+  <component name="RunManager" selected="Application.BinaryTreeController">
     <configuration name="ArrayController" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="com.wxxkel001.genericapp.ArrayController" />
       <module name="GenericApp" />
@@ -157,8 +156,8 @@
     </list>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.ArrayController" />
         <item itemvalue="Application.BinaryTreeController" />
+        <item itemvalue="Application.ArrayController" />
         <item itemvalue="JAR Application.GenericApp.jar" />
       </list>
     </recent_temporary>
@@ -182,7 +181,7 @@
       <workItem from="1709578623442" duration="378000" />
       <workItem from="1709617889035" duration="905000" />
       <workItem from="1709621864859" duration="7162000" />
-      <workItem from="1709750817530" duration="4013000" />
+      <workItem from="1709750817530" duration="4340000" />
     </task>
     <task id="LOCAL-00001" summary="Initial git commit with GUI JAVAFX. Just the skeleton of the applicatoin">
       <option name="closed" value="true" />

@@ -86,29 +86,34 @@ public class ArrayController extends Application {
         String searchText = searchTextBox.getText();
         String selectedOption = ((RadioButton)searchRadioGroup.getSelectedToggle()).getText();
 
-        // Search via Knowledge Base with Term or Statement and change items displayed on Table
-        if(selectedOption.equals("Term")) {
-            TableData[] items = manager.searchListTermResult(searchText);
-            if (items.length > 0) {
-                dataTable.setItems(FXCollections.observableArrayList(items));
-                actionStatus.setTextFill(Color.GREEN);
-                actionStatus.setText("SEARCH Successful");
+        if (!searchText.isEmpty()) {
+            // Search via Knowledge Base with Term or Statement and change items displayed on Table
+            if (selectedOption.equals("Term")) {
+                TableData[] items = manager.searchListTermResult(searchText);
+                if (items.length > 0) {
+                    dataTable.setItems(FXCollections.observableArrayList(items));
+                    actionStatus.setTextFill(Color.GREEN);
+                    actionStatus.setText("SEARCH Successful");
+                } else {
+                    actionStatus.setTextFill(Color.RED);
+                    actionStatus.setText("SEARCH ITEM IS NOT FOUND");
+                    dataTable.setItems(null);
+                }
             } else {
-                actionStatus.setTextFill(Color.RED);
-                actionStatus.setText("SEARCH ITEM IS NOT FOUND");
-                dataTable.setItems(null);
+                TableData[] items = manager.searchListSentenceResult(searchText);
+                if (items.length > 0) {
+                    actionStatus.setTextFill(Color.GREEN);
+                    actionStatus.setText("SEARCH Successful");
+                    dataTable.setItems(FXCollections.observableArrayList(items));
+                } else {
+                    actionStatus.setTextFill(Color.RED);
+                    actionStatus.setText("SEARCH ITEM IS NOT FOUND");
+                    dataTable.setItems(null);
+                }
             }
         } else {
-            TableData[] items = manager.searchListSentenceResult(searchText);
-            if (items.length > 0) {
-                actionStatus.setTextFill(Color.GREEN);
-                actionStatus.setText("SEARCH Successful");
-                dataTable.setItems(FXCollections.observableArrayList(items));
-            } else {
-                actionStatus.setTextFill(Color.RED);
-                actionStatus.setText("SEARCH ITEM IS NOT FOUND");
-                dataTable.setItems(null);
-            }
+            actionStatus.setTextFill(Color.RED);
+            actionStatus.setText("PLEASE ENTER A SEARCH STRING");
         }
 
         // Change Status at the bottom right

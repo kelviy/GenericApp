@@ -87,8 +87,8 @@ public class BinaryTreeController extends Application {
     protected void onSearchButtonClick() {
         // Retrieve User Input
         String searchText = searchTextBox.getText();
-
-        // Search via Knowledge Base with Term or Statement and change items displayed on Table
+        if (!searchText.isEmpty()) {
+            // Search via Knowledge Base with Term or Statement and change items displayed on Table
             TableData items = manager.searchTerm(searchText);
             if (items != null) {
                 dataTable.setItems(FXCollections.observableArrayList(items));
@@ -100,8 +100,13 @@ public class BinaryTreeController extends Application {
                 dataTable.setItems(null);
             }
 
-        // Change Status at the bottom right
-        searchStatus.setText("Search Filter: '" + searchText + "'");
+            // Change Status at the bottom right
+            searchStatus.setText("Search Filter: '" + searchText + "'");
+        }
+        else {
+            actionStatus.setTextFill(Color.RED);
+            actionStatus.setText("PLEASE ENTER A SEARCH STRING");
+        }
     }
 
     /**
