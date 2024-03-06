@@ -14,6 +14,8 @@
   <component name="ChangeListManager">
     <list default="true" id="b0f52645-b9ed-414f-a4fc-75351c8a97cd" name="Changes" comment="Validation condition for all text boxes to be filled was added.">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/classes/com/wxxkel001/genericapp/BinaryTreeController.class" beforeDir="false" afterPath="$PROJECT_DIR$/bin/classes/com/wxxkel001/genericapp/BinaryTreeController.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/wxxkel001/genericapp/BinaryTreeController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/wxxkel001/genericapp/BinaryTreeController.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -54,29 +56,37 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "Application.ArrayController.executor": "Run",
-    "Application.BinaryTreeController.executor": "Run",
-    "Application.GenericApplication.executor": "Run",
-    "Application.GenericController.executor": "Run",
-    "Application.com.wxxkel001.genericapp.ArrayController.executor": "Run",
-    "Application.com.wxxkel001.genericapp.textBasedGUI.executor": "Run",
-    "Application.textBasedGUI.executor": "Run",
-    "JAR Application.GenericApp.jar.executor": "Run",
-    "Maven.GenericApp [org.apache.maven.plugins:maven-compiler-plugin:3.11.0:compile].executor": "Run",
-    "Maven.GenericApp [org.openjfx:javafx-maven-plugin:0.0.8:run].executor": "Run",
-    "RunOnceActivity.OpenProjectViewOnStart": "true",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
-    "kotlin-language-version-configured": "true",
-    "last_opened_file_path": "/Users/mistycloud/Library/CloudStorage/OneDrive-UniversityofCapeTown/UCT - Courses/CSC2001F/CSC2001F - Assignments/Assignment 1/GenericApp/src/main/java/com/wxxkel001/genericapp",
-    "project.structure.last.edited": "Artifacts",
-    "project.structure.proportion": "0.15",
-    "project.structure.side.proportion": "0.29425287",
-    "settings.editor.selected.configurable": "preferences.pluginManager"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;Application.ArrayController.executor&quot;: &quot;Run&quot;,
+    &quot;Application.BinaryTreeController.executor&quot;: &quot;Run&quot;,
+    &quot;Application.GenericApplication.executor&quot;: &quot;Run&quot;,
+    &quot;Application.GenericController.executor&quot;: &quot;Run&quot;,
+    &quot;Application.com.wxxkel001.genericapp.ArrayController.executor&quot;: &quot;Run&quot;,
+    &quot;Application.com.wxxkel001.genericapp.textBasedGUI.executor&quot;: &quot;Run&quot;,
+    &quot;Application.textBasedGUI.executor&quot;: &quot;Run&quot;,
+    &quot;JAR Application.GenericApp.jar.executor&quot;: &quot;Run&quot;,
+    &quot;Maven.GenericApp [org.apache.maven.plugins:maven-compiler-plugin:3.11.0:compile].executor&quot;: &quot;Run&quot;,
+    &quot;Maven.GenericApp [org.openjfx:javafx-maven-plugin:0.0.8:run].executor&quot;: &quot;Run&quot;,
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;main&quot;,
+    &quot;jdk.selected.JAVA_MODULE&quot;: &quot;openjdk-21&quot;,
+    &quot;kotlin-language-version-configured&quot;: &quot;true&quot;,
+    &quot;last_opened_file_path&quot;: &quot;/Users/mistycloud/Library/CloudStorage/OneDrive-UniversityofCapeTown/UCT - Courses/CSC2001F/CSC2001F - Assignments/Assignment 1/GenericApp&quot;,
+    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
+    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
+    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
+    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
+    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
+    &quot;project.structure.last.edited&quot;: &quot;Modules&quot;,
+    &quot;project.structure.proportion&quot;: &quot;0.15&quot;,
+    &quot;project.structure.side.proportion&quot;: &quot;0.29425287&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;reference.settings.ide.settings.new.ui&quot;,
+    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
   }
-}]]></component>
+}</component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
       <recent name="$PROJECT_DIR$/src/main/java/com/wxxkel001/genericapp" />
@@ -96,7 +106,7 @@
       <recent name="com.example.genericapp" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.BinaryTreeController">
+  <component name="RunManager" selected="Application.ArrayController">
     <configuration name="ArrayController" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="com.wxxkel001.genericapp.ArrayController" />
       <module name="GenericApp" />
@@ -147,8 +157,8 @@
     </list>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.BinaryTreeController" />
         <item itemvalue="Application.ArrayController" />
+        <item itemvalue="Application.BinaryTreeController" />
         <item itemvalue="JAR Application.GenericApp.jar" />
       </list>
     </recent_temporary>
@@ -156,8 +166,6 @@
   <component name="SharedIndexes">
     <attachedChunks>
       <set>
-        <option value="jdk-11.0.22-liberica-11.0.22-3183f394aec4-dc35c6bd" />
-        <option value="jdk-17.0.10-corretto-17.0.10-3183f394aec4-96c0d24d" />
         <option value="jdk-21.0.2-openjdk-21.0.2-4caba194b151-322ed176" />
       </set>
     </attachedChunks>
@@ -170,6 +178,10 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1708940202478</updated>
+      <workItem from="1709578130620" duration="462000" />
+      <workItem from="1709578623442" duration="378000" />
+      <workItem from="1709617889035" duration="905000" />
+      <workItem from="1709621864859" duration="4318000" />
     </task>
     <task id="LOCAL-00001" summary="Initial git commit with GUI JAVAFX. Just the skeleton of the applicatoin">
       <option name="closed" value="true" />
@@ -230,6 +242,9 @@
     <option name="localTasksCounter" value="8" />
     <servers />
   </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
   <component name="Vcs.Log.Tabs.Properties">
     <option name="TAB_STATES">
       <map>
@@ -250,5 +265,9 @@
     <MESSAGE value="Functionality to add new terms to the knowledge base has been added." />
     <MESSAGE value="Validation condition for all text boxes to be filled was added." />
     <option name="LAST_COMMIT_MESSAGE" value="Validation condition for all text boxes to be filled was added." />
+  </component>
+  <component name="XSLT-Support.FileAssociations.UIState">
+    <expand />
+    <select />
   </component>
 </project>

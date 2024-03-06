@@ -2,9 +2,9 @@ JC = javac
 JAVA = java
 
 # flags for java command
-JFLAGS = --module-path "lib/" --add-modules javafx.controls,javafx.fxml -cp "bin/classes"
+JFLAGS = --module-path "lib-mac/" --add-modules javafx.controls,javafx.fxml -cp "bin/classes"
 # flags for javac command, .class files outputted to bin/classes
-JCFLAGS = -g --module-path "lib/" --add-modules javafx.controls,javafx.fxml -d "bin/classes"
+JCFLAGS = -g --module-path "lib-mac/" --add-modules javafx.controls,javafx.fxml -d "bin/classes"
 
 # .java files of the project
 SOURCES = $(wildcard src/main/java/com/wxxkel001/genericapp/*.java) $(wildcard src/main/java/com/wxxkel001/genericapp/Manager/*.java) $(wildcard src/main/java/com/wxxkel001/genericapp/Manager/Array/*.java) $(wildcard src/main/java/com/wxxkel001/genericapp/Manager/BinaryTree/*.java)

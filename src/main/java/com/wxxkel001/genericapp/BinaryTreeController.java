@@ -87,7 +87,6 @@ public class BinaryTreeController extends Application {
     protected void onSearchButtonClick() {
         // Retrieve User Input
         String searchText = searchTextBox.getText();
-        String selectedOption = ((RadioButton)searchRadioGroup.getSelectedToggle()).getText();
 
         // Search via Knowledge Base with Term or Statement and change items displayed on Table
             TableData items = manager.searchTerm(searchText);
