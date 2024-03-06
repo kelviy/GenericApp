@@ -119,7 +119,7 @@ public class ArrayManager {
      * @return Array of TableData (Type: TableData[])
      */
     public TableData[] getTotalTableArray() {
-        return TableData.convertGenericToTable(data);
+        return GenericData.convertGenericToTable(data);
     }
 
     /**
@@ -130,7 +130,7 @@ public class ArrayManager {
      */
     public TableData[] searchListTermResult(String term) {
         GenericData[] searchItems = searchMultiTerm(term);
-        TableData[] returnData = TableData.convertGenericToTable(searchItems);
+        TableData[] returnData = GenericData.convertGenericToTable(searchItems);
 
         return returnData;
     }
@@ -142,7 +142,7 @@ public class ArrayManager {
      */
     public TableData[] searchListSentenceResult(String sentence) {
         GenericData[] matched = searchMultiSentence(sentence);
-        TableData[] returnData = TableData.convertGenericToTable(matched);
+        TableData[] returnData = GenericData.convertGenericToTable(matched);
 
         return returnData;
     }

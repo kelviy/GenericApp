@@ -24,31 +24,6 @@ public class TableData {
             this.score = new SimpleDoubleProperty(score);
         }
 
-    /**
-     *  Converts an inputted Generic Array and outputs a TableData Array without null elements trailing at the end. It will trim the null elements trailing
-     * @param gData Array of GenericData (Type: GenericData[]). Array can have trailing null elements.
-     * @return a TableData[] array (Type: TableData[]). Trimmed null trailing elements
-     */
-    public static TableData[] convertGenericToTable(GenericData[] gData) {
-        int size = 0;
-
-        // checks the size excluding null elements
-        for(int i = 0; i < gData.length; i++) {
-            if (gData[i] == null) {
-                break;
-            }
-            size++;
-        }
-
-        TableData[] tData = new TableData[size];
-
-        // converts to a TableData[] with size calculated
-        for (int i = 0; i < tData.length; i++) {
-            tData[i] = GenericData.convertTableData(gData[i]);
-        }
-
-        return tData;
-    }
 
     // getters and setters
     public String getTerm() {
