@@ -129,18 +129,28 @@ public class ArrayController extends Application {
         actionStatus.setText("");
     }
 
+    public static String convertToUnicode(String input) {
+        StringBuilder sb = new StringBuilder();
+
+        for (char c : input.toCharArray()) {
+            sb.append("\\u").append(Integer.toHexString((int) c));
+        }
+
+        return sb.toString();
+    }
+
     /**
      * Retrieves User Input. Checks if term and sentence are filled. If not, the GUI prompts user to fill all fields. Once all fields are filled, the GUI would then insert/update the data using the manager object and update the table again.
      */
     @FXML
     protected void onAddButton() {
         String status = "";
-        if (termTextBox.getText() != "" && statementTextBox.getText() != "") {
+        if (termTextBox.getText().isEmpty() || statementTextBox.getText().isEmpty()) {
+            status = "INSERT FAILED: Please fill all data (term, sentence, score)";
+        } else {
             status = manager.addItem(termTextBox.getText(), statementTextBox.getText(), spinnerScore.getValue());
             data = FXCollections.observableArrayList(manager.getTotalTableArray());
             dataTable.setItems(data);
-        } else {
-            status = "INSERT FAILED: Please fill all data (term, sentence, score)";
         }
         if (status.contains("FAILED")) {
             actionStatus.setTextFill(Color.RED);

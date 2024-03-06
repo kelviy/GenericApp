@@ -124,18 +124,20 @@ public class BinaryTreeController extends Application {
     @FXML
     protected void onAddButton() {
         String status = "SUCCESS";
+        boolean inserted = true;
 
         // checks if fields are empty or not
-        if (termTextBox.getText() != "" && statementTextBox.getText() != "") {
+        if (termTextBox.getText().isEmpty() ||statementTextBox.getText().isEmpty()) {
+            status = "INSERT FAILED: Please fill all data (term, sentence, score)";
+        } else {
             // adds and updates the table
-            manager.addItem(termTextBox.getText(), statementTextBox.getText(), spinnerScore.getValue());
+            inserted = manager.addItem(termTextBox.getText(), statementTextBox.getText(), spinnerScore.getValue());
             data = FXCollections.observableArrayList(manager.getTotalTableArray());
             dataTable.setItems(data);
-        } else {
-            status = "INSERT FAILED: Please fill all data (term, sentence, score)";
         }
-        if (status.contains("FAILED")) {
+        if (status.contains("FAILED") || inserted == false) {
             actionStatus.setTextFill(Color.RED);
+            status = "FAILED";
         } else {
             actionStatus.setTextFill(Color.GREEN);
         }

@@ -102,8 +102,8 @@ public class BinaryTreeManager {
      * @param sentence sentence to associated with term (Type: String)
      * @param score confidence score associated with term (Type: double)
      */
-    public void addItem(String term, String sentence, double score) {
-        dataStructure.insertItem(new GenericData(term, sentence, score));
+    public boolean addItem(String term, String sentence, double score) {
+        return dataStructure.insertItem(new GenericData(term, sentence, score));
     }
 
 

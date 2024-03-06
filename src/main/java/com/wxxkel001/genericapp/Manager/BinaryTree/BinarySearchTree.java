@@ -58,9 +58,9 @@ public class BinarySearchTree<dataType extends GenericData> {
      * @param d The dataType would be GenericData
      * @return returns true if node is found. False otherwise
      */
-    public boolean searchUpdate(dataType d) {
+    public int searchUpdate(dataType d) {
         if (root == null) {
-            return false;
+            return -1;
         }
         else {
             return searchUpdate(d, root);
@@ -73,20 +73,21 @@ public class BinarySearchTree<dataType extends GenericData> {
      * @param node
      * @return
      */
-    public boolean searchUpdate(dataType d, BinaryNode<dataType> node) {
+    public int searchUpdate(dataType d, BinaryNode<dataType> node) {
         int cmp = d.compareTo(node.getData());
 
         if (cmp == 0) {
             if (node.getData().getScore() < d.getScore()) {
                 node.setData(d);
+                return 1;
             }
-            return true;
+            return 0;
         }
         else if (cmp < 0) {
-            return (node.getLeft() == null) ? false : searchUpdate(d, node.getLeft());
+            return (node.getLeft() == null) ? -1 : searchUpdate(d, node.getLeft());
         }
         else {
-            return (node.getRight() == null) ? false : searchUpdate(d, node.getRight());
+            return (node.getRight() == null) ? -1 : searchUpdate(d, node.getRight());
         }
     }
 
@@ -129,11 +130,16 @@ public class BinarySearchTree<dataType extends GenericData> {
     /** Uses the searchUpdate to update inserted object that match the correct conditions for confidence score. If object is not found then the object is inserted into the Binary Search Tree. Would interact with the GUI to insert a new Item.
      * @param d
      */
-    public void insertItem(dataType d) {
-        boolean flag = searchUpdate(d);
-        if (!flag) {
+    public boolean insertItem(dataType d) {
+        int flag = searchUpdate(d);
+        if (flag < 0) {
             insert(d);
+            return true;
         }
+        if (flag == 0) {
+            return false;
+        }
+        return true;
     }
 
     /**
