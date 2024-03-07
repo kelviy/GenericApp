@@ -157,11 +157,11 @@ public class ArrayManager {
     public String addItem(String term, String sentence, double score) {
         int index = searchTerm(term);
 
-        if (index >= 0 && data[index].getScore() < score) {
+        if (index > 0 && data[index].getScore() < score) {
             data[index].setSentence(sentence);
             data[index].setScore(score);
             return "UPDATE SUCCESSFUL";
-        } if (index < 0) {
+        } if (index <= 0) {
             data[count] = new GenericData(term, sentence, score);
             count++;
             return "INSERT SUCCESSFUL";

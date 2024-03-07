@@ -77,7 +77,7 @@ public class BinarySearchTree<dataType extends GenericData> {
         int cmp = d.compareTo(node.getData());
 
         if (cmp == 0) {
-            if (node.getData().getScore() < d.getScore()) {
+            if (node.getData().getScore() <= d.getScore()) {
                 node.setData(d);
                 return 1;
             }
