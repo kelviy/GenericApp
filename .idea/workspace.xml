@@ -14,15 +14,6 @@
   <component name="ChangeListManager">
     <list default="true" id="b0f52645-b9ed-414f-a4fc-75351c8a97cd" name="Changes" comment="Validation condition for all text boxes to be filled was added.">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/bin/classes/com/wxxkel001/genericapp/ArrayController.class" beforeDir="false" afterPath="$PROJECT_DIR$/bin/classes/com/wxxkel001/genericapp/ArrayController.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/bin/classes/com/wxxkel001/genericapp/BinaryTreeController.class" beforeDir="false" afterPath="$PROJECT_DIR$/bin/classes/com/wxxkel001/genericapp/BinaryTreeController.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/bin/classes/com/wxxkel001/genericapp/Manager/Array/ArrayManager.class" beforeDir="false" afterPath="$PROJECT_DIR$/bin/classes/com/wxxkel001/genericapp/Manager/Array/ArrayManager.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/bin/classes/com/wxxkel001/genericapp/Manager/BinaryTree/BinaryNode.class" beforeDir="false" afterPath="$PROJECT_DIR$/bin/classes/com/wxxkel001/genericapp/Manager/BinaryTree/BinaryNode.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/bin/classes/com/wxxkel001/genericapp/Manager/BinaryTree/BinarySearchTree.class" beforeDir="false" afterPath="$PROJECT_DIR$/bin/classes/com/wxxkel001/genericapp/Manager/BinaryTree/BinarySearchTree.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/bin/classes/com/wxxkel001/genericapp/Manager/BinaryTree/BinaryTreeManager.class" beforeDir="false" afterPath="$PROJECT_DIR$/bin/classes/com/wxxkel001/genericapp/Manager/BinaryTree/BinaryTreeManager.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/bin/classes/com/wxxkel001/genericapp/Manager/GenericData.class" beforeDir="false" afterPath="$PROJECT_DIR$/bin/classes/com/wxxkel001/genericapp/Manager/GenericData.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/bin/classes/com/wxxkel001/genericapp/Manager/TableData.class" beforeDir="false" afterPath="$PROJECT_DIR$/bin/classes/com/wxxkel001/genericapp/Manager/TableData.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/wxxkel001/genericapp/Manager/Array/ArrayManager.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/wxxkel001/genericapp/Manager/Array/ArrayManager.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -173,6 +164,7 @@
   <component name="SharedIndexes">
     <attachedChunks>
       <set>
+        <option value="jdk-17.0.10-corretto-17.0.10-4caba194b151-53826d6a" />
         <option value="jdk-21.0.2-openjdk-21.0.2-4caba194b151-322ed176" />
       </set>
     </attachedChunks>
@@ -190,7 +182,7 @@
       <workItem from="1709617889035" duration="905000" />
       <workItem from="1709621864859" duration="7162000" />
       <workItem from="1709750817530" duration="8458000" />
-      <workItem from="1709831202493" duration="2814000" />
+      <workItem from="1709831202493" duration="5399000" />
     </task>
     <task id="LOCAL-00001" summary="Initial git commit with GUI JAVAFX. Just the skeleton of the applicatoin">
       <option name="closed" value="true" />
