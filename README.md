@@ -36,13 +36,13 @@ JCFLAGS = -g --module-path "lib-windows/" --add-modules javafx.controls,javafx.f
 The below commands are for running the application if the project has already been configured to run on the user’s Operating System. 
 
 ## Running Array Application
-Running the `make` command when you’re in the directory of the project folder would compile the project and run the Array Application application. 
+Running the `make` command when you’re in the directory of the project folder would compile the project and run the Array Application. 
 
 ## Running Binary Search Application
 Run the command `make build` and then the command `make run_binary` to compile and then run the Binary Search Application. 
 
 ## Accessing the Javadoc
-To access the javadocs related to the project go to the javadoc directory contained in the project. To view all classes open the html file: `allclasses-index.html`. 
+To access the javadocs related to the project go to the doc directory contained in the project. To view all classes open the html file: `allclasses-index.html`. 
 
 # Additional Queries
 Please email: wxxkel001@myuct.ac.za if you have trouble running the application or any queries. 

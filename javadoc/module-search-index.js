@@ -1,1 +1,0 @@
-moduleSearchIndex = [{"l":"com.wxxkel001.genericapp"}];updateSearchResults();

@@ -14,6 +14,92 @@
   <component name="ChangeListManager">
     <list default="true" id="b0f52645-b9ed-414f-a4fc-75351c8a97cd" name="Changes" comment="Validation condition for all text boxes to be filled was added.">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/javadoc/allclasses-index.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/javadoc/allpackages-index.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/javadoc/com.wxxkel001.genericapp/com/wxxkel001/genericapp/Application/Array/ArrayManager.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/javadoc/com.wxxkel001.genericapp/com/wxxkel001/genericapp/Application/Array/package-summary.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/javadoc/com.wxxkel001.genericapp/com/wxxkel001/genericapp/Application/Array/package-tree.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/javadoc/com.wxxkel001.genericapp/com/wxxkel001/genericapp/Application/BinaryTree/BinaryNode.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/javadoc/com.wxxkel001.genericapp/com/wxxkel001/genericapp/Application/BinaryTree/BinarySearchTree.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/javadoc/com.wxxkel001.genericapp/com/wxxkel001/genericapp/Application/BinaryTree/BinaryTreeManager.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/javadoc/com.wxxkel001.genericapp/com/wxxkel001/genericapp/Application/BinaryTree/package-summary.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/javadoc/com.wxxkel001.genericapp/com/wxxkel001/genericapp/Application/BinaryTree/package-tree.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/javadoc/com.wxxkel001.genericapp/com/wxxkel001/genericapp/Application/GenericData.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/javadoc/com.wxxkel001.genericapp/com/wxxkel001/genericapp/Application/TableData.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/javadoc/com.wxxkel001.genericapp/com/wxxkel001/genericapp/Application/package-summary.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/javadoc/com.wxxkel001.genericapp/com/wxxkel001/genericapp/Application/package-tree.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/javadoc/com.wxxkel001.genericapp/com/wxxkel001/genericapp/ArrayController.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/javadoc/com.wxxkel001.genericapp/com/wxxkel001/genericapp/BinaryTreeController.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/javadoc/com.wxxkel001.genericapp/com/wxxkel001/genericapp/Manager/Array/ArrayManager.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/javadoc/com.wxxkel001.genericapp/com/wxxkel001/genericapp/Manager/Array/package-summary.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/javadoc/com.wxxkel001.genericapp/com/wxxkel001/genericapp/Manager/Array/package-tree.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/javadoc/com.wxxkel001.genericapp/com/wxxkel001/genericapp/Manager/BinaryTree/BinaryNode.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/javadoc/com.wxxkel001.genericapp/com/wxxkel001/genericapp/Manager/BinaryTree/BinarySearchTree.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/javadoc/com.wxxkel001.genericapp/com/wxxkel001/genericapp/Manager/BinaryTree/BinaryTreeManager.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/javadoc/com.wxxkel001.genericapp/com/wxxkel001/genericapp/Manager/BinaryTree/package-summary.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/javadoc/com.wxxkel001.genericapp/com/wxxkel001/genericapp/Manager/BinaryTree/package-tree.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/javadoc/com.wxxkel001.genericapp/com/wxxkel001/genericapp/Manager/GenericData.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/javadoc/com.wxxkel001.genericapp/com/wxxkel001/genericapp/Manager/TableData.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/javadoc/com.wxxkel001.genericapp/com/wxxkel001/genericapp/Manager/package-summary.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/javadoc/com.wxxkel001.genericapp/com/wxxkel001/genericapp/Manager/package-tree.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/javadoc/com.wxxkel001.genericapp/com/wxxkel001/genericapp/package-summary.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/javadoc/com.wxxkel001.genericapp/com/wxxkel001/genericapp/package-tree.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/javadoc/com.wxxkel001.genericapp/com/wxxkel001/genericapp/textBasedGUI.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/javadoc/com.wxxkel001.genericapp/module-summary.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/javadoc/copy.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/javadoc/element-list" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/javadoc/help-doc.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/javadoc/index-files/index-1.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/javadoc/index-files/index-10.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/javadoc/index-files/index-11.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/javadoc/index-files/index-12.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/javadoc/index-files/index-2.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/javadoc/index-files/index-3.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/javadoc/index-files/index-4.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/javadoc/index-files/index-5.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/javadoc/index-files/index-6.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/javadoc/index-files/index-7.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/javadoc/index-files/index-8.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/javadoc/index-files/index-9.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/javadoc/index.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/javadoc/jquery-ui.overrides.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/javadoc/legal/ADDITIONAL_LICENSE_INFO" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/javadoc/legal/ASSEMBLY_EXCEPTION" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/javadoc/legal/COPYRIGHT" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/javadoc/legal/LICENSE" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/javadoc/legal/jquery.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/javadoc/legal/jqueryUI.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/javadoc/link.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/javadoc/member-search-index.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/javadoc/module-search-index.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/javadoc/overview-tree.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/javadoc/package-search-index.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/javadoc/resources/glass.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/javadoc/resources/x.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/javadoc/script-dir/images/ui-bg_glass_55_fbf9ee_1x400.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/javadoc/script-dir/images/ui-bg_glass_65_dadada_1x400.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/javadoc/script-dir/images/ui-bg_glass_75_dadada_1x400.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/javadoc/script-dir/images/ui-bg_glass_75_e6e6e6_1x400.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/javadoc/script-dir/images/ui-bg_glass_95_fef1ec_1x400.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/javadoc/script-dir/images/ui-bg_highlight-soft_75_cccccc_1x100.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/javadoc/script-dir/images/ui-icons_222222_256x240.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/javadoc/script-dir/images/ui-icons_2e83ff_256x240.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/javadoc/script-dir/images/ui-icons_454545_256x240.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/javadoc/script-dir/images/ui-icons_888888_256x240.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/javadoc/script-dir/images/ui-icons_cd0a0a_256x240.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/javadoc/script-dir/jquery-3.5.1.min.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/javadoc/script-dir/jquery-3.6.1.min.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/javadoc/script-dir/jquery-ui.min.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/javadoc/script-dir/jquery-ui.min.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/javadoc/script-dir/jquery-ui.structure.min.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/javadoc/script.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/javadoc/search-page.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/javadoc/search.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/javadoc/search.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/javadoc/stylesheet.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/javadoc/tag-search-index.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/javadoc/type-search-index.js" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -182,7 +268,7 @@
       <workItem from="1709617889035" duration="905000" />
       <workItem from="1709621864859" duration="7162000" />
       <workItem from="1709750817530" duration="8458000" />
-      <workItem from="1709831202493" duration="5399000" />
+      <workItem from="1709831202493" duration="5841000" />
     </task>
     <task id="LOCAL-00001" summary="Initial git commit with GUI JAVAFX. Just the skeleton of the applicatoin">
       <option name="closed" value="true" />
